@@ -1,0 +1,63 @@
+about:
+  description: 🤖 Just a command runner
+  license: CC0-1.0
+  homepage: https://just.systems
+  head: 5969e39
+  archived: false
+  latestVersion: 1.58.0
+  collectedAt: 2026-09-04T04:24:25Z
+timeline:
+  created: 2016-06-17
+  lastCommit: 2026-09-01
+  lastRelease: 2026-08-03
+popularity:
+  star: 35618
+  watcher: 106
+  fork: 837
+  release: 146
+  contributor: 213
+  pullRequest: 223
+  issue: 1471
+language:
+  Rust: 1340421
+  Shell: 13408
+  Just: 4986
+  Nix: 1608
+  CSS: 1275
+  HTML: 787
+  Nushell: 367
+  Dockerfile: 58
+totalLine: 1362910
+recent:
+  last30d:
+    since: 2026-08-05
+    release: 0
+    mergedPR: 6
+    openPR: 0
+    closedIssue: 7
+    openIssue: 3
+    commit: 5
+  last90d:
+    since: 2026-06-06
+    release: 8
+    mergedPR: 278
+    openPR: 0
+    closedIssue: 43
+    openIssue: 13
+    commit: 276
+  last180d:
+    since: 2026-03-08
+    release: 15
+    mergedPR: 413
+    openPR: 0
+    closedIssue: 99
+    openIssue: 22
+    commit: 422
+  last360d:
+    since: 2025-09-09
+    release: 21
+    mergedPR: 495
+    openPR: 0
+    closedIssue: 179
+    openIssue: 38
+    commit: 496
