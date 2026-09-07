@@ -5,15 +5,15 @@ about:
   head: 5969e39
   archived: false
   latestVersion: "1.58.0"
-  collectedAt: 2026-09-07T05:26:51Z
+  collectedAt: 2026-09-07T19:00:48Z
 timeline:
   created: 2016-06-17
   lastCommit: 2026-09-01
   lastRelease: 2026-08-03
 popularity:
-  star: 35667
+  star: 35680
   watcher: 107
-  fork: 838
+  fork: 840
   release: 146
   contributor: 213
   pullRequest: 2020
@@ -86,7 +86,7 @@ total:
   commit: 1979
 ---
 path: /home/runner/.x-repo/github.com/casey/just
-collectedAt: 2026-09-07T05:26:55Z
+collectedAt: 2026-09-07T19:00:52Z
 loc:
   Rust:
     code: 59231
@@ -264,7 +264,7 @@ checks:
       - 'Warn: 0 commits out of 30 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T05:26:56+00:00
+  collectedAt: 2026-09-07T19:00:53+00:00
   platform:
     darwin/arm64:
       name:  just-1.58.0-aarch64-apple-darwin.tar.gz
