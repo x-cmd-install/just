@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 210136,
       "digest": "sha256:20471dc37a2248cd5c95b05a258f4b185513a829cf2c7f5e158c7ee381cd62ee",
-      "download_count": 197,
+      "download_count": 198,
       "created_at": "2026-08-03T20:31:34Z",
       "updated_at": "2026-08-03T20:31:35Z",
       "browser_download_url": "https://github.com/casey/just/releases/download/1.58.0/CHANGELOG.md"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 2146038,
       "digest": "sha256:50ae3e996c974a0bf32ea7d10f495070df33f1b43e0616b2769e3d4821ed8f48",
-      "download_count": 134671,
+      "download_count": 135274,
       "created_at": "2026-08-03T20:31:32Z",
       "updated_at": "2026-08-03T20:31:32Z",
       "browser_download_url": "https://github.com/casey/just/releases/download/1.58.0/just-1.58.0-aarch64-apple-darwin.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 2053202,
       "digest": "sha256:3a39ed629eb67678976c811a4da46f7985a2c22f4dbabe017b8b2eb5ceb5d01c",
-      "download_count": 15881,
+      "download_count": 15914,
       "created_at": "2026-08-03T20:33:20Z",
       "updated_at": "2026-08-03T20:33:20Z",
       "browser_download_url": "https://github.com/casey/just/releases/download/1.58.0/just-1.58.0-aarch64-pc-windows-msvc.zip"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 2306281,
       "digest": "sha256:748237128c4c40cbdabc65e841d05ceba13cc23a91eaba395495894c1d9764df",
-      "download_count": 215439,
+      "download_count": 216178,
       "created_at": "2026-08-03T20:31:42Z",
       "updated_at": "2026-08-03T20:31:43Z",
       "browser_download_url": "https://github.com/casey/just/releases/download/1.58.0/just-1.58.0-aarch64-unknown-linux-musl.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 2372131,
       "digest": "sha256:ebb0e9d5eb2ed8b19c3563a4bdd37801ab9f910841f35b5e4ea261ecec971f39",
-      "download_count": 209,
+      "download_count": 211,
       "created_at": "2026-08-03T20:31:30Z",
       "updated_at": "2026-08-03T20:31:31Z",
       "browser_download_url": "https://github.com/casey/just/releases/download/1.58.0/just-1.58.0-arm-unknown-linux-musleabihf.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 2330659,
       "digest": "sha256:f08a39bace6c8a4c7b5941479f9c2e313505b251653aa2dd7c9e9672b5fba2e6",
-      "download_count": 238,
+      "download_count": 240,
       "created_at": "2026-08-03T20:31:31Z",
       "updated_at": "2026-08-03T20:31:31Z",
       "browser_download_url": "https://github.com/casey/just/releases/download/1.58.0/just-1.58.0-armv7-unknown-linux-musleabihf.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 2329732,
       "digest": "sha256:793c6f8612169a1a6c19297eefaf8dc1959b507d6d0eede5f5507be6ee7c29f4",
-      "download_count": 219,
+      "download_count": 221,
       "created_at": "2026-08-03T20:32:07Z",
       "updated_at": "2026-08-03T20:32:08Z",
       "browser_download_url": "https://github.com/casey/just/releases/download/1.58.0/just-1.58.0-loongarch64-unknown-linux-musl.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 2394409,
       "digest": "sha256:1cbca0ce9880d5d1050115a6e2ced510927f85d1797a204ef6bccb319d923d8d",
-      "download_count": 217,
+      "download_count": 219,
       "created_at": "2026-08-03T20:31:36Z",
       "updated_at": "2026-08-03T20:31:37Z",
       "browser_download_url": "https://github.com/casey/just/releases/download/1.58.0/just-1.58.0-riscv64gc-unknown-linux-musl.tar.gz"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 2330963,
       "digest": "sha256:9a09cfef66aaa79da58203970103a0684307716caaabd3e9844cacc4dc0f4023",
-      "download_count": 8683,
+      "download_count": 8703,
       "created_at": "2026-08-03T20:31:41Z",
       "updated_at": "2026-08-03T20:31:42Z",
       "browser_download_url": "https://github.com/casey/just/releases/download/1.58.0/just-1.58.0-x86_64-apple-darwin.tar.gz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 2252404,
       "digest": "sha256:759f16fb7aa17c5c8b9594b6d4a8c1a6630dfd042cf2b3ff84841454d3d188dc",
-      "download_count": 151153,
+      "download_count": 151680,
       "created_at": "2026-08-03T20:33:47Z",
       "updated_at": "2026-08-03T20:33:47Z",
       "browser_download_url": "https://github.com/casey/just/releases/download/1.58.0/just-1.58.0-x86_64-pc-windows-msvc.zip"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 2529009,
       "digest": "sha256:4a5cc2f53e6f0f8c59092a6cc38291eb729d46a7dd95d3ae582008881b84931d",
-      "download_count": 1710940,
+      "download_count": 1716625,
       "created_at": "2026-08-03T20:31:32Z",
       "updated_at": "2026-08-03T20:31:33Z",
       "browser_download_url": "https://github.com/casey/just/releases/download/1.58.0/just-1.58.0-x86_64-unknown-linux-musl.tar.gz"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 1184,
       "digest": "sha256:a2e7355b6882af86f46e86faf1150992d4326c131e697bdf2e7c95aebdff55cb",
-      "download_count": 43909,
+      "download_count": 43972,
       "created_at": "2026-08-03T20:33:59Z",
       "updated_at": "2026-08-03T20:33:59Z",
       "browser_download_url": "https://github.com/casey/just/releases/download/1.58.0/SHA256SUMS"
