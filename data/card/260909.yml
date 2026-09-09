@@ -7,7 +7,7 @@ about:
   latestVersion: "1.58.0"
   latestRelease: "1.58.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-09T05:43:25Z
+  collectedAt: 2026-09-09T20:04:32Z
 timeline:
   created: 2016-06-17
   lastCommit: 2026-09-01
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-08-03
   lastPrerelease: 
 popularity:
-  star: 35696
+  star: 35705
   watcher: 107
   fork: 839
   release: 146
@@ -90,7 +90,7 @@ total:
   commit: 1979
 ---
 path: /home/runner/.x-repo/github.com/casey/just
-collectedAt: 2026-09-09T05:43:29Z
+collectedAt: 2026-09-09T20:04:38Z
 loc:
   Rust:
     code: 59231
