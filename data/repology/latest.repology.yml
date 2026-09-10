@@ -1,0 +1,1901 @@
+- repo: nix_stable_24_11
+  srcname: just
+  visiblename: just
+  version: 1.38.0
+  origversion: null
+  status: outdated
+  summary: Handy way to save and run project-specific commands
+  maintainers:
+    - xrelkd@github
+    - hello+nixpkgs@j-k.io
+  licenses:
+    - CC0-1.0
+- repo: chimera
+  subrepo: user
+  srcname: just
+  binname: just-fishcomp
+  visiblename: just-fishcomp
+  version: 1.58.0
+  origversion: 1.58.0-r0
+  status: newest
+  summary: Save and run commands from justfile (fish completions)
+  licenses:
+    - CC0-1.0
+- repo: aerynos
+  srcname: just
+  visiblename: just
+  version: 1.46.0
+  origversion: null
+  status: outdated
+  summary: just is a handy way to save and run project-specific commands.
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_17
+  subrepo: community
+  srcname: just
+  binname: just-bash-completion
+  visiblename: just-bash-completion
+  version: 1.8.0
+  origversion: 1.8.0-r0
+  status: outdated
+  summary: Bash completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_17
+  subrepo: community
+  srcname: just
+  binname: just
+  visiblename: just
+  version: 1.8.0
+  origversion: 1.8.0-r0
+  status: outdated
+  summary: Just a command runner
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_17
+  subrepo: community
+  srcname: just
+  binname: just-zsh-completion
+  visiblename: just-zsh-completion
+  version: 1.8.0
+  origversion: 1.8.0-r0
+  status: outdated
+  summary: Zsh completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_17
+  subrepo: community
+  srcname: just
+  binname: just-fish-completion
+  visiblename: just-fish-completion
+  version: 1.8.0
+  origversion: 1.8.0-r0
+  status: outdated
+  summary: Fish completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_18
+  subrepo: community
+  srcname: just
+  binname: just
+  visiblename: just
+  version: 1.13.0
+  origversion: 1.13.0-r0
+  status: outdated
+  summary: Just a command runner
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_18
+  subrepo: community
+  srcname: just
+  binname: just-bash-completion
+  visiblename: just-bash-completion
+  version: 1.13.0
+  origversion: 1.13.0-r0
+  status: outdated
+  summary: Bash completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_18
+  subrepo: community
+  srcname: just
+  binname: just-doc
+  visiblename: just-doc
+  version: 1.13.0
+  origversion: 1.13.0-r0
+  status: outdated
+  summary: Just a command runner (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_18
+  subrepo: community
+  srcname: just
+  binname: just-fish-completion
+  visiblename: just-fish-completion
+  version: 1.13.0
+  origversion: 1.13.0-r0
+  status: outdated
+  summary: Fish completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_18
+  subrepo: community
+  srcname: just
+  binname: just-zsh-completion
+  visiblename: just-zsh-completion
+  version: 1.13.0
+  origversion: 1.13.0-r0
+  status: outdated
+  summary: Zsh completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: just
+  binname: just
+  visiblename: just
+  version: 1.16.0
+  origversion: 1.16.0-r0
+  status: outdated
+  summary: Just a command runner
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: just
+  binname: just-bash-completion
+  visiblename: just-bash-completion
+  version: 1.16.0
+  origversion: 1.16.0-r0
+  status: outdated
+  summary: Bash completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: just
+  binname: just-doc
+  visiblename: just-doc
+  version: 1.16.0
+  origversion: 1.16.0-r0
+  status: outdated
+  summary: Just a command runner (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: just
+  binname: just-fish-completion
+  visiblename: just-fish-completion
+  version: 1.16.0
+  origversion: 1.16.0-r0
+  status: outdated
+  summary: Fish completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_19
+  subrepo: community
+  srcname: just
+  binname: just-zsh-completion
+  visiblename: just-zsh-completion
+  version: 1.16.0
+  origversion: 1.16.0-r0
+  status: outdated
+  summary: Zsh completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: just
+  binname: just
+  visiblename: just
+  version: 1.26.0
+  origversion: 1.26.0-r0
+  status: outdated
+  summary: Just a command runner
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: just
+  binname: just-bash-completion
+  visiblename: just-bash-completion
+  version: 1.26.0
+  origversion: 1.26.0-r0
+  status: outdated
+  summary: Bash completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: just
+  binname: just-doc
+  visiblename: just-doc
+  version: 1.26.0
+  origversion: 1.26.0-r0
+  status: outdated
+  summary: Just a command runner (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: just
+  binname: just-fish-completion
+  visiblename: just-fish-completion
+  version: 1.26.0
+  origversion: 1.26.0-r0
+  status: outdated
+  summary: Fish completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_20
+  subrepo: community
+  srcname: just
+  binname: just-zsh-completion
+  visiblename: just-zsh-completion
+  version: 1.26.0
+  origversion: 1.26.0-r0
+  status: outdated
+  summary: Zsh completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: just
+  binname: just
+  visiblename: just
+  version: 1.37.0
+  origversion: 1.37.0-r0
+  status: outdated
+  summary: Just a command runner
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: just
+  binname: just-bash-completion
+  visiblename: just-bash-completion
+  version: 1.37.0
+  origversion: 1.37.0-r0
+  status: outdated
+  summary: Bash completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: just
+  binname: just-doc
+  visiblename: just-doc
+  version: 1.37.0
+  origversion: 1.37.0-r0
+  status: outdated
+  summary: Just a command runner (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: just
+  binname: just-fish-completion
+  visiblename: just-fish-completion
+  version: 1.37.0
+  origversion: 1.37.0-r0
+  status: outdated
+  summary: Fish completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_21
+  subrepo: community
+  srcname: just
+  binname: just-zsh-completion
+  visiblename: just-zsh-completion
+  version: 1.37.0
+  origversion: 1.37.0-r0
+  status: outdated
+  summary: Zsh completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: just
+  binname: just
+  visiblename: just
+  version: 1.40.0
+  origversion: 1.40.0-r0
+  status: outdated
+  summary: Just a command runner
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: just
+  binname: just-bash-completion
+  visiblename: just-bash-completion
+  version: 1.40.0
+  origversion: 1.40.0-r0
+  status: outdated
+  summary: Bash completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: just
+  binname: just-doc
+  visiblename: just-doc
+  version: 1.40.0
+  origversion: 1.40.0-r0
+  status: outdated
+  summary: Just a command runner (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: just
+  binname: just-fish-completion
+  visiblename: just-fish-completion
+  version: 1.40.0
+  origversion: 1.40.0-r0
+  status: outdated
+  summary: Fish completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: just
+  binname: just-zsh-completion
+  visiblename: just-zsh-completion
+  version: 1.40.0
+  origversion: 1.40.0-r0
+  status: outdated
+  summary: Zsh completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: just
+  binname: just
+  visiblename: just
+  version: 1.43.1
+  origversion: 1.43.1-r0
+  status: outdated
+  summary: Just a command runner
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: just
+  binname: just-bash-completion
+  visiblename: just-bash-completion
+  version: 1.43.1
+  origversion: 1.43.1-r0
+  status: outdated
+  summary: Bash completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: just
+  binname: just-doc
+  visiblename: just-doc
+  version: 1.43.1
+  origversion: 1.43.1-r0
+  status: outdated
+  summary: Just a command runner (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: just
+  binname: just-fish-completion
+  visiblename: just-fish-completion
+  version: 1.43.1
+  origversion: 1.43.1-r0
+  status: outdated
+  summary: Fish completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: just
+  binname: just-zsh-completion
+  visiblename: just-zsh-completion
+  version: 1.43.1
+  origversion: 1.43.1-r0
+  status: outdated
+  summary: Zsh completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: just
+  binname: just
+  visiblename: just
+  version: 1.48.1
+  origversion: 1.48.1-r0
+  status: outdated
+  summary: Just a command runner
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: just
+  binname: just-bash-completion
+  visiblename: just-bash-completion
+  version: 1.48.1
+  origversion: 1.48.1-r0
+  status: outdated
+  summary: Bash completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: just
+  binname: just-doc
+  visiblename: just-doc
+  version: 1.48.1
+  origversion: 1.48.1-r0
+  status: outdated
+  summary: Just a command runner (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: just
+  binname: just-fish-completion
+  visiblename: just-fish-completion
+  version: 1.48.1
+  origversion: 1.48.1-r0
+  status: outdated
+  summary: Fish completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_3_24
+  subrepo: community
+  srcname: just
+  binname: just-zsh-completion
+  visiblename: just-zsh-completion
+  version: 1.48.1
+  origversion: 1.48.1-r0
+  status: outdated
+  summary: Zsh completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: just
+  binname: just
+  visiblename: just
+  version: 1.57.0
+  origversion: 1.57.0-r0
+  status: outdated
+  summary: Just a command runner
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: just
+  binname: just-bash-completion
+  visiblename: just-bash-completion
+  version: 1.57.0
+  origversion: 1.57.0-r0
+  status: outdated
+  summary: Bash completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: just
+  binname: just-doc
+  visiblename: just-doc
+  version: 1.57.0
+  origversion: 1.57.0-r0
+  status: outdated
+  summary: Just a command runner (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: just
+  binname: just-fish-completion
+  visiblename: just-fish-completion
+  version: 1.57.0
+  origversion: 1.57.0-r0
+  status: outdated
+  summary: Fish completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: just
+  binname: just-zsh-completion
+  visiblename: just-zsh-completion
+  version: 1.57.0
+  origversion: 1.57.0-r0
+  status: outdated
+  summary: Zsh completions for just
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - CC0-1.0
+- repo: alt_p11
+  srcname: just
+  binnames:
+    - just
+    - just-debuginfo
+  visiblename: just
+  version: 1.26.0
+  origversion: 1.26.0-alt1.1
+  status: outdated
+  summary: Just a command runner
+  maintainers:
+    - iv@altlinux.org
+  licenses:
+    - CC0-1.0
+  categories:
+    - Development/Other
+- repo: altsisyphus
+  srcname: just
+  binnames:
+    - just
+    - just-debuginfo
+  visiblename: just
+  version: 1.47.1
+  origversion: 1.47.1-alt1
+  status: outdated
+  summary: Just a command runner
+  maintainers:
+    - vt@altlinux.org
+  licenses:
+    - CC0-1.0
+  categories:
+    - Development/Other
+- repo: aosc
+  srcname: app-devel/just
+  binname: just
+  visiblename: just
+  version: 1.50.0
+  origversion: null
+  status: outdated
+  summary: A tool for creating and running project-specific commands
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - utils
+- repo: arch
+  subrepo: extra
+  srcname: just
+  binname: just
+  visiblename: just
+  version: 1.58.0
+  origversion: 1.58.0-1
+  status: newest
+  summary: A handy way to save and run project-specific commands
+  licenses:
+    - CC0-1.0
+- repo: aur
+  srcname: just-git
+  binname: just-git
+  visiblename: just-git
+  version: 0.9.4.r879.g2eebdbb2
+  origversion: 0.9.4.r879.g2eebdbb2-1
+  status: rolling
+  summary: Just a command runner
+  maintainers:
+    - chocobo1@aur
+  licenses:
+    - CC0-1.0
+- repo: artix
+  subrepo: galaxy
+  srcname: just
+  binname: just
+  visiblename: just
+  version: 1.58.0
+  origversion: 1.58.0-1
+  status: newest
+  summary: A handy way to save and run project-specific commands
+  licenses:
+    - CC0-1.0
+- repo: chimera
+  subrepo: user
+  srcname: just
+  binname: just
+  visiblename: just
+  version: 1.58.0
+  origversion: 1.58.0-r0
+  status: newest
+  summary: Save and run commands from justfile
+  licenses:
+    - CC0-1.0
+- repo: chimera
+  subrepo: user
+  srcname: just
+  binname: just-bashcomp
+  visiblename: just-bashcomp
+  version: 1.58.0
+  origversion: 1.58.0-r0
+  status: newest
+  summary: Save and run commands from justfile (bash completions)
+  licenses:
+    - CC0-1.0
+- repo: chimera
+  subrepo: user
+  srcname: just
+  binname: just-man
+  visiblename: just-man
+  version: 1.58.0
+  origversion: 1.58.0-r0
+  status: newest
+  summary: Save and run commands from justfile (manual pages)
+  licenses:
+    - CC0-1.0
+- repo: chimera
+  subrepo: user
+  srcname: just
+  binname: just-nucomp
+  visiblename: just-nucomp
+  version: 1.58.0
+  origversion: 1.58.0-r0
+  status: newest
+  summary: Save and run commands from justfile (nu completions)
+  licenses:
+    - CC0-1.0
+- repo: chimera
+  subrepo: user
+  srcname: just
+  binname: just-zshcomp
+  visiblename: just-zshcomp
+  version: 1.58.0
+  origversion: 1.58.0-r0
+  status: newest
+  summary: Save and run commands from justfile (zsh completions)
+  licenses:
+    - CC0-1.0
+- repo: chocolatey
+  binname: just
+  visiblename: just (Install)
+  version: 1.58.0
+  origversion: null
+  status: newest
+  summary: Just a command runner
+- repo: crates_io
+  srcname: just
+  visiblename: just
+  version: 1.58.0
+  origversion: null
+  status: newest
+  summary: "\U0001F916 Just a command runner"
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: rust-just
+  binnames:
+    - librust-just-dev
+    - just
+  visiblename: rust-just
+  version: 1.40.0
+  origversion: 1.40.0-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - misc
+- repo: debian_14
+  subrepo: forky/main
+  srcname: rust-just
+  binnames:
+    - librust-just-dev
+    - just
+  visiblename: rust-just
+  version: 1.58.0
+  origversion: 1.58.0-1
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: rust-just
+  binnames:
+    - librust-just-dev
+    - just
+  visiblename: rust-just
+  version: 1.58.0
+  origversion: 1.58.0-1
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - misc
+- repo: deepin_23
+  subrepo: main
+  srcname: rust-just
+  binnames:
+    - librust-just-dev
+    - just
+  visiblename: rust-just
+  version: 1.36.0
+  origversion: 1.36.0-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - misc
+- repo: deepin_25
+  subrepo: main
+  srcname: rust-just
+  binnames:
+    - librust-just-dev
+    - just
+  visiblename: rust-just
+  version: 1.36.0
+  origversion: 1.36.0-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: rust-just
+  binnames:
+    - librust-just-dev
+    - just
+  visiblename: rust-just
+  version: 1.58.0
+  origversion: 1.58.0-1
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - misc
+- repo: epel_10
+  srcname: rust-just
+  binnames:
+    - just
+    - rust-just-devel
+    - rust-just+default-devel
+    - rust-just-debuginfo
+    - rust-just-debugsource
+  visiblename: rust-just
+  version: 1.57.0
+  origversion: 1.57.0-1.el10_3
+  status: outdated
+  summary: Just a command runner
+  licenses:
+    - CC0-1.0
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: release
+  srcname: rust-just
+  binnames:
+    - just
+    - rust-just-devel
+    - rust-just+default-devel
+    - rust-just+help4help2man-devel
+    - rust-just-debuginfo
+    - rust-just-debugsource
+  visiblename: rust-just
+  version: 1.14.0
+  origversion: 1.14.0-2.fc39
+  status: legacy
+  summary: Just a command runner
+  licenses:
+    - CC0-1.0
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: updates
+  srcname: rust-just
+  binnames:
+    - just
+    - rust-just-devel
+    - rust-just+default-devel
+    - rust-just-debuginfo
+    - rust-just-debugsource
+  visiblename: rust-just
+  version: 1.35.0
+  origversion: 1.35.0-1.fc39
+  status: outdated
+  summary: Just a command runner
+  licenses:
+    - CC0-1.0
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: updates
+  srcname: rust-just
+  binnames:
+    - just
+    - rust-just-devel
+    - rust-just+default-devel
+    - rust-just-debuginfo
+    - rust-just-debugsource
+  visiblename: rust-just
+  version: 1.40.0
+  origversion: 1.40.0-1.fc40
+  status: outdated
+  summary: Just a command runner
+  licenses:
+    - CC0-1.0
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: rust-just
+  binnames:
+    - just
+    - rust-just-devel
+    - rust-just+default-devel
+    - rust-just+help4help2man-devel
+    - rust-just-debuginfo
+    - rust-just-debugsource
+  visiblename: rust-just
+  version: 1.25.2
+  origversion: 1.25.2-1.fc40
+  status: legacy
+  summary: Just a command runner
+  licenses:
+    - CC0-1.0
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: updates
+  srcname: rust-just
+  binnames:
+    - just
+    - rust-just-devel
+    - rust-just+default-devel
+    - rust-just-debuginfo
+    - rust-just-debugsource
+  visiblename: rust-just
+  version: 1.43.0
+  origversion: 1.43.0-1.fc41
+  status: outdated
+  summary: Just a command runner
+  licenses:
+    - CC0-1.0
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: rust-just
+  binnames:
+    - just
+    - rust-just-devel
+    - rust-just+default-devel
+    - rust-just-debuginfo
+    - rust-just-debugsource
+  visiblename: rust-just
+  version: 1.35.0
+  origversion: 1.35.0-1.fc41
+  status: legacy
+  summary: Just a command runner
+  licenses:
+    - CC0-1.0
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: release
+  srcname: rust-just
+  binnames:
+    - just
+    - rust-just-devel
+    - rust-just+default-devel
+    - rust-just-debuginfo
+    - rust-just-debugsource
+  visiblename: rust-just
+  version: 1.40.0
+  origversion: 1.40.0-1.fc42
+  status: legacy
+  summary: Just a command runner
+  licenses:
+    - CC0-1.0
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: updates
+  srcname: rust-just
+  binnames:
+    - just
+    - rust-just-devel
+    - rust-just+default-devel
+    - rust-just-debuginfo
+    - rust-just-debugsource
+  visiblename: rust-just
+  version: 1.50.0
+  origversion: 1.50.0-1.fc42
+  status: outdated
+  summary: Just a command runner
+  licenses:
+    - CC0-1.0
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
+  srcname: rust-just
+  binnames:
+    - just
+    - rust-just-devel
+    - rust-just+default-devel
+    - rust-just-debuginfo
+    - rust-just-debugsource
+  visiblename: rust-just
+  version: 1.43.0
+  origversion: 1.43.0-1.fc43
+  status: legacy
+  summary: Just a command runner
+  licenses:
+    - CC0-1.0
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: updates
+  srcname: rust-just
+  binnames:
+    - just
+    - rust-just-devel
+    - rust-just+default-devel
+    - rust-just-debuginfo
+    - rust-just-debugsource
+  visiblename: rust-just
+  version: 1.57.0
+  origversion: 1.57.0-1.fc43
+  status: outdated
+  summary: Just a command runner
+  licenses:
+    - CC0-1.0
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: updates
+  srcname: rust-just
+  binnames:
+    - just
+    - rust-just-devel
+    - rust-just+default-devel
+    - rust-just-debuginfo
+    - rust-just-debugsource
+  visiblename: rust-just
+  version: 1.57.0
+  origversion: 1.57.0-1.fc44
+  status: outdated
+  summary: Just a command runner
+  licenses:
+    - CC0-1.0
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: rust-just
+  binnames:
+    - just
+    - rust-just-devel
+    - rust-just+default-devel
+    - rust-just-debuginfo
+    - rust-just-debugsource
+  visiblename: rust-just
+  version: 1.47.1
+  origversion: 1.47.1-1.fc44
+  status: legacy
+  summary: Just a command runner
+  licenses:
+    - CC0-1.0
+  categories:
+    - Unspecified
+- repo: fedora_rawhide
+  subrepo: development
+  srcname: rust-just
+  binnames:
+    - just
+    - rust-just-devel
+    - rust-just+default-devel
+    - rust-just-debuginfo
+    - rust-just-debugsource
+  visiblename: rust-just
+  version: 1.57.0
+  origversion: 1.57.0-1.fc45
+  status: outdated
+  summary: Just a command runner
+  licenses:
+    - CC0-1.0
+  categories:
+    - Unspecified
+- repo: freebsd
+  srcname: deskutils/just
+  binname: just
+  visiblename: deskutils/just
+  version: 1.58.0
+  origversion: 1.58.0_1
+  status: newest
+  summary: 'Just a command runner: handy way to save/run project-specific commands'
+  maintainers:
+    - yuri@freebsd.org
+  categories:
+    - deskutils
+- repo: gentoo
+  srcname: dev-build/just
+  visiblename: dev-build/just
+  version: 1.55.1
+  origversion: null
+  status: legacy
+  summary: Just a command runner (with syntax inspired by 'make')
+  maintainers:
+    - joe@wt.gd
+    - proxy-maint@gentoo.org
+  licenses:
+    - CC0-1.0
+    - Apache-2.0
+    - BSD-2
+    - MIT
+    - MPL-2.0
+    - Unicode-3.0
+    - ZLIB
+  categories:
+    - dev-build
+- repo: msys2_clangarm64
+  srcname: mingw-w64-just
+  binname: mingw-w64-clang-aarch64-just
+  visiblename: mingw-w64-clang-aarch64-just
+  version: 1.58.0
+  origversion: 1.58.0-1
+  status: newest
+  summary: Just a command runner (mingw-w64)
+  licenses:
+    - spdx:CC0-1.0
+- repo: msys2_msys2
+  subrepo: x86_64
+  srcname: just
+  binname: just
+  visiblename: just
+  version: 1.58.0
+  origversion: 1.58.0-1
+  status: newest
+  summary: A handy way to save and run project-specific commands
+  licenses:
+    - spdx:CC0-1.0
+- repo: gentoo
+  srcname: dev-build/just
+  visiblename: dev-build/just
+  version: 1.57.0
+  origversion: null
+  status: legacy
+  summary: Just a command runner (with syntax inspired by 'make')
+  maintainers:
+    - joe@wt.gd
+    - proxy-maint@gentoo.org
+  licenses:
+    - CC0-1.0
+    - Apache-2.0
+    - BSD-2
+    - MIT
+    - MPL-2.0
+    - Unicode-3.0
+    - ZLIB
+  categories:
+    - dev-build
+- repo: gentoo
+  srcname: dev-build/just
+  visiblename: dev-build/just
+  version: 1.58.0
+  origversion: null
+  status: newest
+  summary: Just a command runner (with syntax inspired by 'make')
+  maintainers:
+    - joe@wt.gd
+    - proxy-maint@gentoo.org
+  licenses:
+    - CC0-1.0
+    - Apache-2.0
+    - BSD-2
+    - MIT
+    - MPL-2.0
+    - Unicode-3.0
+    - ZLIB
+  categories:
+    - dev-build
+- repo: gnuguix
+  srcname: just
+  binname: just
+  visiblename: just
+  version: 1.43.0
+  origversion: null
+  status: outdated
+  summary: Command runner
+- repo: homebrew
+  srcname: just
+  visiblename: just
+  version: 1.58.0
+  origversion: null
+  status: newest
+  summary: Handy way to save and run project-specific commands
+- repo: homebrew
+  srcname: just
+  visiblename: just
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Handy way to save and run project-specific commands
+- repo: kali_rolling
+  subrepo: main
+  srcname: rust-just
+  binnames:
+    - librust-just-dev
+    - just
+  visiblename: rust-just
+  version: 1.58.0
+  origversion: 1.58.0-1
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - misc
+- repo: liguros_stable
+  srcname: dev-build/just
+  visiblename: dev-build/just
+  version: 1.42.4
+  origversion: null
+  status: outdated
+  summary: Just a command runner (with syntax inspired by 'make')
+  maintainers:
+    - joe@wt.gd
+    - proxy-maint@gentoo.org
+  licenses:
+    - CC0-1.0
+    - Apache-2.0
+    - BSD-2
+    - MIT
+    - MPL-2.0
+    - Unicode-3.0
+  categories:
+    - dev-build
+- repo: liguros_stable
+  srcname: dev-build/just
+  visiblename: dev-build/just
+  version: 1.41.0
+  origversion: null
+  status: legacy
+  summary: Just a command runner (with syntax inspired by 'make')
+  maintainers:
+    - joe@wt.gd
+    - proxy-maint@gentoo.org
+  licenses:
+    - CC0-1.0
+    - Apache-2.0
+    - BSD-2
+    - MIT
+    - MPL-2.0
+    - Unicode-3.0
+  categories:
+    - dev-build
+- repo: msys2_ucrt64
+  srcname: mingw-w64-just
+  binname: mingw-w64-ucrt-x86_64-just
+  visiblename: mingw-w64-ucrt-x86_64-just
+  version: 1.58.0
+  origversion: 1.58.0-1
+  status: newest
+  summary: Just a command runner (mingw-w64)
+  licenses:
+    - spdx:CC0-1.0
+- repo: nix_stable_24_05
+  srcname: just
+  visiblename: just
+  version: 1.28.0
+  origversion: null
+  status: outdated
+  summary: A handy way to save and run project-specific commands
+  maintainers:
+    - xrelkd@github
+    - hello+nixpkgs@j-k.io
+    - happy.plan4249@valkor.net
+  licenses:
+    - CC0-1.0
+- repo: liguros_develop
+  srcname: dev-build/just
+  visiblename: dev-build/just
+  version: 1.49.0
+  origversion: null
+  status: legacy
+  summary: Just a command runner (with syntax inspired by 'make')
+  maintainers:
+    - joe@wt.gd
+    - proxy-maint@gentoo.org
+  licenses:
+    - CC0-1.0
+    - Apache-2.0
+    - BSD-2
+    - MIT
+    - MPL-2.0
+    - Unicode-3.0
+    - ZLIB
+  categories:
+    - dev-build
+- repo: liguros_develop
+  srcname: dev-build/just
+  visiblename: dev-build/just
+  version: 1.51.0
+  origversion: null
+  status: outdated
+  summary: Just a command runner (with syntax inspired by 'make')
+  maintainers:
+    - joe@wt.gd
+    - proxy-maint@gentoo.org
+  licenses:
+    - CC0-1.0
+    - Apache-2.0
+    - BSD-2
+    - MIT
+    - MPL-2.0
+    - Unicode-3.0
+    - ZLIB
+  categories:
+    - dev-build
+- repo: liguros_develop
+  srcname: dev-build/just
+  visiblename: dev-build/just
+  version: 1.50.0
+  origversion: null
+  status: legacy
+  summary: Just a command runner (with syntax inspired by 'make')
+  maintainers:
+    - joe@wt.gd
+    - proxy-maint@gentoo.org
+  licenses:
+    - CC0-1.0
+    - Apache-2.0
+    - BSD-2
+    - MIT
+    - MPL-2.0
+    - Unicode-3.0
+    - ZLIB
+  categories:
+    - dev-build
+- repo: liguros_develop
+  srcname: dev-build/just
+  visiblename: dev-build/just
+  version: 1.48.1
+  origversion: null
+  status: legacy
+  summary: Just a command runner (with syntax inspired by 'make')
+  maintainers:
+    - joe@wt.gd
+    - proxy-maint@gentoo.org
+  licenses:
+    - CC0-1.0
+    - Apache-2.0
+    - BSD-2
+    - MIT
+    - MPL-2.0
+    - Unicode-3.0
+    - ZLIB
+  categories:
+    - dev-build
+- repo: macports
+  srcname: sysutils/just
+  binname: just
+  visiblename: just
+  version: 1.58.0
+  origversion: null
+  status: newest
+  summary: A handy way to store and run project-specific commands
+  maintainers:
+    - casey@github
+    - herbygillot@github
+  licenses:
+    - permissive
+  categories:
+    - sysutils
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: just
+  binname: just
+  visiblename: just
+  version: 1.58.0
+  origversion: 1.58.0-1
+  status: newest
+  summary: A handy way to save and run project-specific commands
+  licenses:
+    - CC0-1.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: just
+  binname: just
+  visiblename: just
+  version: 1.58.0
+  origversion: 1.58.0-1
+  status: newest
+  summary: A handy way to save and run project-specific commands
+  licenses:
+    - CC0-1.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: just
+  binname: just
+  visiblename: just
+  version: 1.58.0
+  origversion: 1.58.0-1
+  status: newest
+  summary: A handy way to save and run project-specific commands
+  licenses:
+    - CC0-1.0
+- repo: msys2_clang64
+  srcname: mingw-w64-just
+  binname: mingw-w64-clang-x86_64-just
+  visiblename: mingw-w64-clang-x86_64-just
+  version: 1.58.0
+  origversion: 1.58.0-1
+  status: newest
+  summary: Just a command runner (mingw-w64)
+  licenses:
+    - spdx:CC0-1.0
+- repo: nix_stable_25_05
+  srcname: just
+  visiblename: just
+  version: 1.40.0
+  origversion: null
+  status: outdated
+  summary: Handy way to save and run project-specific commands
+  maintainers:
+    - xrelkd@github
+    - hello+nixpkgs@j-k.io
+    - xiaoyin_c@qq.com
+  licenses:
+    - CC0-1.0
+- repo: nix_stable_25_11
+  srcname: just
+  visiblename: just
+  version: 1.43.1
+  origversion: null
+  status: outdated
+  summary: Handy way to save and run project-specific commands
+  maintainers:
+    - xrelkd@github
+    - hello+nixpkgs@j-k.io
+    - xiaoyin_c@qq.com
+  licenses:
+    - CC0-1.0
+- repo: nix_stable_26_05
+  srcname: just
+  visiblename: just
+  version: 1.51.0
+  origversion: null
+  status: outdated
+  summary: Handy way to save and run project-specific commands
+  maintainers:
+    - xrelkd@github
+    - hello+nixpkgs@j-k.io
+    - xiaoyin_c@qq.com
+  licenses:
+    - CC0-1.0
+- repo: nix_unstable
+  srcname: just
+  visiblename: just
+  version: 1.58.0
+  origversion: null
+  status: newest
+  summary: Handy way to save and run project-specific commands
+  maintainers:
+    - hello+nixpkgs@j-k.io
+    - xiaoyin_c@qq.com
+    - xrelkd@github
+  licenses:
+    - CC0-1.0
+- repo: openbsd
+  srcname: sysutils/just
+  binname: just
+  visiblename: sysutils/just
+  version: 1.48.1
+  origversion: null
+  status: outdated
+  summary: tool for running project-specific commands
+  maintainers:
+    - edd@openbsd.org
+  categories:
+    - sysutils
+- repo: openmandriva_6_0
+  subrepo: main/release
+  srcname: just
+  binnames:
+    - just
+    - just-bash-completion
+    - just-fish-completion
+    - just-zsh-completion
+  visiblename: just
+  version: 1.40.0
+  origversion: 1.40.0-1
+  status: outdated
+  summary: Commmand runner
+  maintainers:
+    - angrypenguinpoland@gmail.com
+  licenses:
+    - (Apache-2.0 OR MIT) AND Unicode-DFS-2016 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND (Apache-2.0 OR Apache-2.0 WITH LLVM-exception OR MIT) AND (MIT OR Unlicense) AND Apache-2.0 AND BSD-3-Clause AND CC0-1.0 AND MIT AND CC0-1.0
+  categories:
+    - Development/Tools/Building
+- repo: openmandriva_rolling
+  subrepo: main/release
+  srcname: just
+  binnames:
+    - just
+    - just-bash-completion
+    - just-fish-completion
+    - just-zsh-completion
+  visiblename: just
+  version: 1.46.0
+  origversion: 1.46.0-1
+  status: outdated
+  summary: Commmand runner
+  maintainers:
+    - angrypenguinpoland@gmail.com
+  licenses:
+    - (Apache-2.0 OR MIT) AND Unicode-DFS-2016 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND (Apache-2.0 OR Apache-2.0 WITH LLVM-exception OR MIT) AND (MIT OR Unlicense) AND Apache-2.0 AND BSD-3-Clause AND CC0-1.0 AND MIT AND CC0-1.0
+  categories:
+    - Development/Tools/Building
+- repo: openmandriva_cooker
+  subrepo: main/release
+  srcname: just
+  binnames:
+    - just
+    - just-bash-completion
+    - just-fish-completion
+    - just-zsh-completion
+  visiblename: just
+  version: 1.58.0
+  origversion: 1.58.0-1
+  status: newest
+  summary: Commmand runner
+  maintainers:
+    - angrypenguinpoland@gmail.com
+  licenses:
+    - (Apache-2.0 OR MIT) AND Unicode-DFS-2016 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND (Apache-2.0 OR Apache-2.0 WITH LLVM-exception OR MIT) AND (MIT OR Unlicense) AND Apache-2.0 AND BSD-3-Clause AND CC0-1.0 AND MIT AND CC0-1.0
+  categories:
+    - Development/Tools/Building
+- repo: openpkg_current
+  srcname: just
+  visiblename: just
+  version: 1.45.0
+  origversion: null
+  status: outdated
+  summary: Build Tool
+  licenses:
+    - CC0
+  categories:
+    - SCM
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: just
+  visiblename: just
+  version: 1.14.0
+  origversion: 1.14.0-bp156.1.8
+  status: outdated
+  summary: Commmand runner
+  licenses:
+    - (Apache-2.0 OR MIT) AND Unicode-DFS-2016 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND (Apache-2.0 OR Apache-2.0 WITH LLVM-exception OR MIT) AND (MIT OR Unlicense) AND Apache-2.0 AND BSD-3-Clause AND CC0-1.0 AND MIT AND CC0-1.0
+  categories:
+    - Development/Tools/Building
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: just
+  binnames:
+    - just
+    - just-debuginfo
+    - just-debugsource
+    - just-bash-completion
+    - just-fish-completion
+    - just-zsh-completion
+  visiblename: just
+  version: 1.58.0
+  origversion: 1.58.0-1.2
+  status: newest
+  summary: Commmand runner
+  licenses:
+    - (Apache-2.0 OR MIT) AND Unicode-DFS-2016 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND (Apache-2.0 OR Apache-2.0 WITH LLVM-exception OR MIT) AND (MIT OR Unlicense) AND Apache-2.0 AND BSD-3-Clause AND CC0-1.0 AND MIT AND CC0-1.0
+  categories:
+    - Development/Tools/Building
+- repo: parabola
+  subrepo: extra
+  srcname: just
+  binname: just
+  visiblename: just
+  version: 1.58.0
+  origversion: 1.58.0-1
+  status: newest
+  summary: A handy way to save and run project-specific commands
+  licenses:
+    - CC0-1.0
+- repo: parrot
+  subrepo: parrot/main
+  srcname: rust-just
+  binnames:
+    - librust-just-dev
+    - just
+  visiblename: rust-just
+  version: 1.40.0
+  origversion: 1.40.0-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: rust-just
+  binnames:
+    - librust-just-dev
+    - just
+  visiblename: rust-just
+  version: 1.40.0
+  origversion: 1.40.0-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - misc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: rust-just
+  binnames:
+    - just
+    - librust-just-dev
+  visiblename: rust-just
+  version: 1.40.0
+  origversion: 1.40.0-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - devel
+- repo: raspbian_stable
+  subrepo: main
+  srcname: rust-just
+  binnames:
+    - librust-just-dev
+    - just
+  visiblename: rust-just
+  version: 1.40.0
+  origversion: 1.40.0-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: rust-just
+  binnames:
+    - librust-just-dev
+    - just
+  visiblename: rust-just
+  version: 1.58.0
+  origversion: 1.58.0-1
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - misc
+- repo: rosa_13
+  subrepo: contrib/release
+  srcname: just
+  binnames:
+    - just
+    - just-bash-completion
+  visiblename: just
+  version: 1.46.0
+  origversion: 1.46.0-1
+  status: outdated
+  summary: Commmand runner
+  maintainers:
+    - a.proklov@rosa.ru
+  licenses:
+    - MIT
+  categories:
+    - Development/Other
+- repo: scoop
+  subrepo: main
+  binname: just
+  visiblename: just
+  version: 1.58.0
+  origversion: null
+  status: newest
+  licenses:
+    - CC0-1.0
+- repo: solus
+  srcname: just
+  binname: just
+  visiblename: just
+  version: 1.58.0
+  origversion: null
+  status: newest
+  summary: Just a command runner
+  maintainers:
+    - david@davidjharder.ca
+  licenses:
+    - CC0-1.0
+  categories:
+    - programming.tools
+- repo: solus
+  srcname: just
+  binname: just-dbginfo
+  visiblename: just-dbginfo
+  version: 1.57.0
+  origversion: null
+  status: legacy
+  summary: Debug symbols for just
+  maintainers:
+    - david@davidjharder.ca
+  licenses:
+    - CC0-1.0
+  categories:
+    - debug
+- repo: spack
+  srcname: just
+  visiblename: just
+  version: master
+  origversion: null
+  status: rolling
+  maintainers:
+    - dando18@spack
+  licenses:
+    - CC0-1.0
+- repo: spack
+  srcname: just
+  visiblename: just
+  version: 1.55.1
+  origversion: null
+  status: outdated
+  maintainers:
+    - dando18@spack
+  licenses:
+    - CC0-1.0
+- repo: stalix
+  srcname: bin/just
+  binname: bin/just
+  visiblename: bin/just
+  version: 1.58.0
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: stalix_dev
+  srcname: bin/just
+  binname: bin/just
+  visiblename: bin/just
+  version: 1.58.0
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: t2
+  srcname: just
+  visiblename: just
+  version: 1.58.0
+  origversion: null
+  status: newest
+  summary: A command runner
+  maintainers:
+    - rene@exactco.de
+  licenses:
+    - CC0
+  categories:
+    - base/development
+- repo: termux
+  srcname: just
+  binname: just
+  visiblename: just
+  version: 1.58.0
+  origversion: null
+  status: newest
+  summary: A handy way to save and run project-specific commands
+  maintainers:
+    - flipee@github
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: rust-just
+  binnames:
+    - librust-just-dev
+    - just
+  visiblename: rust-just
+  version: 1.21.0
+  origversion: 1.21.0-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - n@sail.ng
+  categories:
+    - universe/misc
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: rust-just
+  binnames:
+    - librust-just-dev
+    - just
+  visiblename: rust-just
+  version: 1.40.0
+  origversion: 1.40.0-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: rust-just
+  binnames:
+    - librust-just-dev
+    - just
+  visiblename: rust-just
+  version: 1.40.0
+  origversion: 1.40.0-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: rust-just
+  binnames:
+    - librust-just-dev
+    - just
+  visiblename: rust-just
+  version: 1.45.0
+  origversion: 1.45.0-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: rust-just
+  binnames:
+    - librust-just-dev
+    - just
+  visiblename: rust-just
+  version: 1.45.0
+  origversion: 1.45.0-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10_proposed
+  subrepo: stonking-proposed/universe
+  srcname: rust-just
+  binnames:
+    - librust-just-dev
+    - just
+  visiblename: rust-just
+  version: 1.57.0
+  origversion: 1.57.0-1ubuntu1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - ncts@debian.org
+  categories:
+    - universe/misc
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: just
+  binname: just
+  visiblename: just
+  version: 1.58.0
+  origversion: 1.58.0_1
+  status: newest
+  summary: Just a command runner
+  maintainers:
+    - cinerea0@protonmail.com
+  licenses:
+    - CC0-1.0
+- repo: wikidata
+  srcname: Q107993962
+  visiblename: just
+  version: 1.58.0
+  origversion: null
+  status: newest
+  summary: command runner
+  licenses:
+    - Creative Commons CC0 License
