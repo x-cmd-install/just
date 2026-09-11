@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 35,734 · **Forks**: 843 · **Open issues**: 1,472 · **Contributors**: 213
+- **Stars**: 35,736 · **Forks**: 843 · **Open issues**: 1,472 · **Contributors**: 213
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 5 | 0 | 4 | 4 | 3 |
-| last60d | 2026-07-12 | 2 | 17 | 0 | 18 | 6 | 17 |
-| 90d | 2026-06-12 | 7 | 256 | 0 | 43 | 12 | 223 |
-| last180d | 2026-03-14 | 15 | 409 | 0 | 97 | 23 | 405 |
-| 360d | 2025-09-15 | 21 | 495 | 0 | 178 | 38 | 496 |
-| last720d | 2024-09-20 | 32 | 662 | 0 | 369 | 91 | 664 |
+| 30d | 2026-08-12 | 0 | 3 | 0 | 3 | 4 | 3 |
+| last60d | 2026-07-13 | 2 | 16 | 0 | 18 | 6 | 17 |
+| 90d | 2026-06-13 | 7 | 248 | 0 | 43 | 12 | 223 |
+| last180d | 2026-03-15 | 15 | 403 | 0 | 93 | 23 | 405 |
+| 360d | 2025-09-16 | 21 | 494 | 0 | 177 | 38 | 496 |
+| last720d | 2024-09-21 | 32 | 658 | 0 | 367 | 91 | 664 |
 
 ## Release assets
 
@@ -84,7 +84,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **138** distros on [repology.org](https://repology.org/project/just). **38** are ✅ on the latest upstream release, **84** are ⚠️ on an older version.
+Reported by **138** distros on [repology.org](https://repology.org/project/just). **43** are ✅ on the latest upstream release, **79** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -98,7 +98,7 @@ Reported by **138** distros on [repology.org](https://repology.org/project/just)
 | Fedora rawhide | `1.57.0` | ⚠️ outdated |
 | Nix unstable | `1.58.0` | ✅ latest |
 | Void | `1.58.0` | ✅ latest |
-| Alpine edge | `1.57.0` | ⚠️ outdated |
+| Alpine edge | `1.58.0` | ✅ latest |
 | openSUSE Tumbleweed | `1.58.0` | ✅ latest |
 
 ## Improve this data
@@ -110,4 +110,4 @@ Install metadata for just lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T23:26:49Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T05:37:07Z._
