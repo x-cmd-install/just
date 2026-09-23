@@ -4,7 +4,7 @@
 
 🤖 Just a command runner
 
-[![x-cmd/install — just Code Quality Monitoring Repo Card](https://repo.x-cmd.io/just.svg)](https://x-cmd.com/install/just)
+[![x-cmd/install — just Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/just.svg)](https://x-cmd.com/install/just)
 
 ## Install
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 35,944 · **Forks**: 846 · **Open issues**: 1,472 · **Contributors**: 213
+- **Stars**: 35,962 · **Forks**: 846 · **Open issues**: 1,472 · **Contributors**: 213
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 6 | 0 | 3 | 1 | 0 |
-| last60d | 2026-07-24 | 1 | 15 | 0 | 12 | 5 | 0 |
-| 90d | 2026-06-24 | 5 | 167 | 0 | 40 | 10 | 0 |
-| last180d | 2026-03-26 | 12 | 367 | 0 | 81 | 22 | 0 |
-| 360d | 2025-09-27 | 21 | 494 | 0 | 174 | 36 | 0 |
-| last720d | 2024-10-02 | 31 | 654 | 0 | 360 | 88 | 654 |
+| 30d | 2026-08-24 | 0 | 6 | 0 | 3 | 1 | 6 |
+| last60d | 2026-07-25 | 1 | 14 | 0 | 10 | 5 | 12 |
+| 90d | 2026-06-25 | 5 | 164 | 0 | 40 | 10 | 146 |
+| last180d | 2026-03-27 | 12 | 367 | 0 | 79 | 22 | 357 |
+| 360d | 2025-09-28 | 20 | 494 | 0 | 173 | 35 | 498 |
+| last720d | 2024-10-03 | 31 | 654 | 0 | 357 | 88 | 654 |
 
 ## Release assets
 
@@ -91,4 +91,4 @@ Install metadata for just lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T05:52:59Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T06:03:00Z._
