@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 35,962 · **Forks**: 846 · **Open issues**: 1,472 · **Contributors**: 213
+- **Stars**: 35,981 · **Forks**: 847 · **Open issues**: 1,473 · **Contributors**: 213
 
 ## Totals (cumulative)
 
-- **Releases**: 146 · **Merged PRs**: 1801 · **Open PRs**: 0 · **Closed issues**: 1301 · **Open issues**: 171 · **Commits**: 1983
+- **Releases**: 146 · **Merged PRs**: 1801 · **Open PRs**: 0 · **Closed issues**: 1302 · **Open issues**: 171 · **Commits**: 1983
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-24 | 0 | 6 | 0 | 3 | 1 | 6 |
-| last60d | 2026-07-25 | 1 | 14 | 0 | 10 | 5 | 12 |
-| 90d | 2026-06-25 | 5 | 164 | 0 | 40 | 10 | 146 |
-| last180d | 2026-03-27 | 12 | 367 | 0 | 79 | 22 | 357 |
-| 360d | 2025-09-28 | 20 | 494 | 0 | 173 | 35 | 498 |
-| last720d | 2024-10-03 | 31 | 654 | 0 | 357 | 88 | 654 |
+| 30d | 2026-08-25 | 0 | 6 | 0 | 4 | 1 | 6 |
+| last60d | 2026-07-26 | 1 | 12 | 0 | 11 | 4 | 12 |
+| 90d | 2026-06-26 | 5 | 156 | 0 | 40 | 10 | 146 |
+| last180d | 2026-03-28 | 12 | 362 | 0 | 79 | 22 | 357 |
+| 360d | 2025-09-29 | 20 | 493 | 0 | 173 | 35 | 498 |
+| last720d | 2024-10-04 | 31 | 654 | 0 | 357 | 88 | 654 |
 
 ## Release assets
 
@@ -91,4 +91,4 @@ Install metadata for just lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260923.yml` · 2026-09-23T06:03:00Z._
+_Snapshot: `data/card/260924.yml` · 2026-09-24T05:36:06Z._
