@@ -14,7 +14,7 @@ x install just
 
 ## Code insight
 
-Total: **60,461** lines of code across **283** files in the top 5 languages.
+Total: **60,464** lines of code across **283** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -22,7 +22,7 @@ Total: **60,461** lines of code across **283** files in the top 5 languages.
 | Bash | 330 | 6 | 57 | 5 |
 | Sh | 166 | 12 | 36 | 2 |
 | Toml | 140 | 3 | 20 | 7 |
-| Nix | 56 | 0 | 12 | 1 |
+| Css | 58 | 1 | 10 | 1 |
 
 ## OpenSSF Scorecard
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.58.0` (2026-08-03)
-- **Last commit**: 2026-09-27
+- **Last commit**: 2026-09-29
 - **Assets in release**: 12
 
 ## Popularity
 
-- **Stars**: 36,060 · **Forks**: 851 · **Open issues**: 1,480 · **Contributors**: 213
+- **Stars**: 36,078 · **Forks**: 854 · **Open issues**: 1,481 · **Contributors**: 213
 
 ## Totals (cumulative)
 
-- **Releases**: 146 · **Merged PRs**: 1808 · **Open PRs**: 0 · **Closed issues**: 1310 · **Open issues**: 170 · **Commits**: 1990
+- **Releases**: 146 · **Merged PRs**: 1809 · **Open PRs**: 0 · **Closed issues**: 1310 · **Open issues**: 171 · **Commits**: 1991
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 0 | 13 | 0 | 10 | 1 | 11 |
-| last60d | 2026-07-31 | 1 | 19 | 0 | 17 | 4 | 17 |
-| 90d | 2026-07-01 | 3 | 141 | 0 | 45 | 10 | 130 |
-| last180d | 2026-04-02 | 11 | 358 | 0 | 84 | 20 | 344 |
-| 360d | 2025-10-04 | 20 | 499 | 0 | 179 | 34 | 504 |
-| last720d | 2024-10-09 | 31 | 655 | 0 | 360 | 87 | 657 |
+| 30d | 2026-08-31 | 0 | 14 | 0 | 9 | 2 | 12 |
+| last60d | 2026-08-01 | 1 | 20 | 0 | 17 | 5 | 18 |
+| 90d | 2026-07-02 | 3 | 141 | 0 | 41 | 10 | 131 |
+| last180d | 2026-04-03 | 11 | 351 | 0 | 82 | 21 | 345 |
+| 360d | 2025-10-05 | 20 | 500 | 0 | 177 | 35 | 505 |
+| last720d | 2024-10-10 | 31 | 653 | 0 | 359 | 88 | 658 |
 
 ## Release assets
 
@@ -91,4 +91,4 @@ Install metadata for just lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T06:34:48Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T06:28:25Z._
