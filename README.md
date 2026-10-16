@@ -14,11 +14,11 @@ x install just
 
 ## Code insight
 
-Total: **60,554** lines of code across **285** files in the top 5 languages.
+Total: **60,550** lines of code across **285** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 59,772 | 117 | 5,462 | 270 |
+| Rust | 59,768 | 116 | 5,461 | 270 |
 | Bash | 330 | 6 | 57 | 5 |
 | Sh | 166 | 12 | 36 | 2 |
 | Toml | 141 | 3 | 20 | 7 |
@@ -42,45 +42,45 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `1.58.0` (2026-08-03)
-- **Last commit**: 2026-10-14
+- **Latest**: `1.59.0` (2026-10-15)
+- **Last commit**: 2026-10-15
 - **Assets in release**: 12
 
 ## Popularity
 
-- **Stars**: 36,279 · **Forks**: 863 · **Open issues**: 1,491 · **Contributors**: 213
+- **Stars**: 36,300 · **Forks**: 863 · **Open issues**: 1,494 · **Contributors**: 213
 
 ## Totals (cumulative)
 
-- **Releases**: 146 · **Merged PRs**: 1815 · **Open PRs**: 0 · **Closed issues**: 1319 · **Open issues**: 172 · **Commits**: 1997
+- **Releases**: 147 · **Merged PRs**: 1816 · **Open PRs**: 0 · **Closed issues**: 1321 · **Open issues**: 173 · **Commits**: 1998
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-15 | 0 | 18 | 0 | 15 | 4 | 18 |
-| last60d | 2026-08-16 | 0 | 21 | 0 | 18 | 7 | 21 |
-| 90d | 2026-07-17 | 2 | 33 | 0 | 31 | 9 | 31 |
-| last180d | 2026-04-18 | 10 | 329 | 0 | 78 | 16 | 323 |
-| 360d | 2025-10-20 | 20 | 503 | 0 | 180 | 35 | 509 |
-| last720d | 2024-10-25 | 31 | 653 | 0 | 365 | 89 | 661 |
+| 30d | 2026-09-16 | 1 | 19 | 0 | 17 | 5 | 19 |
+| last60d | 2026-08-17 | 1 | 22 | 0 | 20 | 8 | 22 |
+| 90d | 2026-07-18 | 3 | 34 | 0 | 32 | 10 | 32 |
+| last180d | 2026-04-19 | 11 | 324 | 0 | 80 | 17 | 324 |
+| 360d | 2025-10-21 | 21 | 504 | 0 | 179 | 36 | 510 |
+| last720d | 2024-10-26 | 32 | 654 | 0 | 367 | 90 | 662 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [CHANGELOG.md](https://github.com/casey/just/releases/download/1.58.0/CHANGELOG.md) | 205.2 KiB | `other` |
-| [just-1.58.0-aarch64-apple-darwin.tar.gz](https://github.com/casey/just/releases/download/1.58.0/just-1.58.0-aarch64-apple-darwin.tar.gz) | 2.0 MiB | `native/darwin/arm64` |
-| [just-1.58.0-aarch64-pc-windows-msvc.zip](https://github.com/casey/just/releases/download/1.58.0/just-1.58.0-aarch64-pc-windows-msvc.zip) | 2.0 MiB | `native/win/arm64` |
-| [just-1.58.0-aarch64-unknown-linux-musl.tar.gz](https://github.com/casey/just/releases/download/1.58.0/just-1.58.0-aarch64-unknown-linux-musl.tar.gz) | 2.2 MiB | `native/linux/arm64/musl` |
-| [just-1.58.0-arm-unknown-linux-musleabihf.tar.gz](https://github.com/casey/just/releases/download/1.58.0/just-1.58.0-arm-unknown-linux-musleabihf.tar.gz) | 2.3 MiB | `native/linux/arm/musl` |
-| [just-1.58.0-armv7-unknown-linux-musleabihf.tar.gz](https://github.com/casey/just/releases/download/1.58.0/just-1.58.0-armv7-unknown-linux-musleabihf.tar.gz) | 2.2 MiB | `native/linux/arm/musl` |
-| [just-1.58.0-loongarch64-unknown-linux-musl.tar.gz](https://github.com/casey/just/releases/download/1.58.0/just-1.58.0-loongarch64-unknown-linux-musl.tar.gz) | 2.2 MiB | `native/unknown` |
-| [just-1.58.0-riscv64gc-unknown-linux-musl.tar.gz](https://github.com/casey/just/releases/download/1.58.0/just-1.58.0-riscv64gc-unknown-linux-musl.tar.gz) | 2.3 MiB | `native/linux/riscv64/musl` |
-| [just-1.58.0-x86_64-apple-darwin.tar.gz](https://github.com/casey/just/releases/download/1.58.0/just-1.58.0-x86_64-apple-darwin.tar.gz) | 2.2 MiB | `native/darwin/x64` |
-| [just-1.58.0-x86_64-pc-windows-msvc.zip](https://github.com/casey/just/releases/download/1.58.0/just-1.58.0-x86_64-pc-windows-msvc.zip) | 2.1 MiB | `native/win/x64` |
-| [just-1.58.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/casey/just/releases/download/1.58.0/just-1.58.0-x86_64-unknown-linux-musl.tar.gz) | 2.4 MiB | `native/linux/x64/musl` |
-| [SHA256SUMS](https://github.com/casey/just/releases/download/1.58.0/SHA256SUMS) | 1.2 KiB | `other` |
+| [CHANGELOG.md](https://github.com/casey/just/releases/download/1.59.0/CHANGELOG.md) | 208.5 KiB | `other` |
+| [just-1.59.0-aarch64-apple-darwin.tar.gz](https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-aarch64-apple-darwin.tar.gz) | 2.1 MiB | `native/darwin/arm64` |
+| [just-1.59.0-aarch64-pc-windows-msvc.zip](https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-aarch64-pc-windows-msvc.zip) | 2.0 MiB | `native/win/arm64` |
+| [just-1.59.0-aarch64-unknown-linux-musl.tar.gz](https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-aarch64-unknown-linux-musl.tar.gz) | 2.2 MiB | `native/linux/arm64/musl` |
+| [just-1.59.0-arm-unknown-linux-musleabihf.tar.gz](https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-arm-unknown-linux-musleabihf.tar.gz) | 2.3 MiB | `native/linux/arm/musl` |
+| [just-1.59.0-armv7-unknown-linux-musleabihf.tar.gz](https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-armv7-unknown-linux-musleabihf.tar.gz) | 2.3 MiB | `native/linux/arm/musl` |
+| [just-1.59.0-loongarch64-unknown-linux-musl.tar.gz](https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-loongarch64-unknown-linux-musl.tar.gz) | 2.3 MiB | `native/unknown` |
+| [just-1.59.0-riscv64gc-unknown-linux-musl.tar.gz](https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-riscv64gc-unknown-linux-musl.tar.gz) | 2.3 MiB | `native/linux/riscv64/musl` |
+| [just-1.59.0-x86_64-apple-darwin.tar.gz](https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-x86_64-apple-darwin.tar.gz) | 2.2 MiB | `native/darwin/x64` |
+| [just-1.59.0-x86_64-pc-windows-msvc.zip](https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-x86_64-pc-windows-msvc.zip) | 2.2 MiB | `native/win/x64` |
+| [just-1.59.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-x86_64-unknown-linux-musl.tar.gz) | 2.5 MiB | `native/linux/x64/musl` |
+| [SHA256SUMS](https://github.com/casey/just/releases/download/1.59.0/SHA256SUMS) | 1.2 KiB | `other` |
 
 ## Improve this data
 
@@ -91,4 +91,4 @@ Install metadata for just lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261015.yml` · 2026-10-15T05:31:07Z._
+_Snapshot: `data/card/261016.yml` · 2026-10-16T05:18:46Z._
