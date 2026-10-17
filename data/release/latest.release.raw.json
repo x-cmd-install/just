@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 213523,
       "digest": "sha256:0dce88c74adb5a3d4b3418a66bd3a75be54fd85f9eee7de44de5f593b87462a2",
-      "download_count": 15,
+      "download_count": 19,
       "created_at": "2026-10-15T06:41:28Z",
       "updated_at": "2026-10-15T06:41:28Z",
       "browser_download_url": "https://github.com/casey/just/releases/download/1.59.0/CHANGELOG.md"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 2174952,
       "digest": "sha256:6574cea774ed4cae12e24b6aa11857de33e80dab4667cf628fd5840df96a2a9d",
-      "download_count": 2555,
+      "download_count": 6428,
       "created_at": "2026-10-15T07:53:33Z",
       "updated_at": "2026-10-15T07:53:34Z",
       "browser_download_url": "https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-aarch64-apple-darwin.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 2098112,
       "digest": "sha256:a72808bc8f8028c25aaae87cf26405d2bd85d2769a779380b344c69607216971",
-      "download_count": 495,
+      "download_count": 686,
       "created_at": "2026-10-15T07:54:47Z",
       "updated_at": "2026-10-15T07:54:47Z",
       "browser_download_url": "https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-aarch64-pc-windows-msvc.zip"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 2343258,
       "digest": "sha256:23871b1702bfd550fb5f901778fd4290ecf2ee034a45a889fbe96d89b188086d",
-      "download_count": 9537,
+      "download_count": 19617,
       "created_at": "2026-10-15T06:41:40Z",
       "updated_at": "2026-10-15T06:41:40Z",
       "browser_download_url": "https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-aarch64-unknown-linux-musl.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 2413949,
       "digest": "sha256:080ea650f9aef32e0b371af71dc0c8dc3a355f74007ebbe350dc31d2fb510a02",
-      "download_count": 28,
+      "download_count": 33,
       "created_at": "2026-10-15T06:41:39Z",
       "updated_at": "2026-10-15T06:41:39Z",
       "browser_download_url": "https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-arm-unknown-linux-musleabihf.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 2372501,
       "digest": "sha256:928e2a0fe5fcade06415c55210608efefe43e985a757ded3e219ac4a13b6ed0e",
-      "download_count": 31,
+      "download_count": 35,
       "created_at": "2026-10-15T06:41:03Z",
       "updated_at": "2026-10-15T06:41:03Z",
       "browser_download_url": "https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-armv7-unknown-linux-musleabihf.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 2361612,
       "digest": "sha256:c6a684e2094e5a762e45765e35e7beac037f83fa44a521cd40221caa3a170179",
-      "download_count": 29,
+      "download_count": 32,
       "created_at": "2026-10-15T06:42:05Z",
       "updated_at": "2026-10-15T06:42:05Z",
       "browser_download_url": "https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-loongarch64-unknown-linux-musl.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 2405624,
       "digest": "sha256:698951bdc89869cd8a3c0229402944c628e67d1e41e9179d8ef2b35301b666b4",
-      "download_count": 31,
+      "download_count": 38,
       "created_at": "2026-10-15T06:41:41Z",
       "updated_at": "2026-10-15T06:41:42Z",
       "browser_download_url": "https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-riscv64gc-unknown-linux-musl.tar.gz"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 2357655,
       "digest": "sha256:036ead9df9bc31dbae9934ae3b4236ed124d0bafcffd33439460ae084d5c9cb7",
-      "download_count": 144,
+      "download_count": 415,
       "created_at": "2026-10-15T07:54:31Z",
       "updated_at": "2026-10-15T07:54:31Z",
       "browser_download_url": "https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-x86_64-apple-darwin.tar.gz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 2292448,
       "digest": "sha256:9c5463e2d0974e31bee71346aa5cbf19167de1585a4abc1bae7b3b04604ea9c0",
-      "download_count": 4349,
+      "download_count": 8540,
       "created_at": "2026-10-15T07:54:19Z",
       "updated_at": "2026-10-15T07:54:19Z",
       "browser_download_url": "https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-x86_64-pc-windows-msvc.zip"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 2572537,
       "digest": "sha256:409044617b6f06517c1035e55ca38c8c856ff8b650e41bc2aa1ef82d5903a23e",
-      "download_count": 39463,
+      "download_count": 87258,
       "created_at": "2026-10-15T06:41:26Z",
       "updated_at": "2026-10-15T06:41:27Z",
       "browser_download_url": "https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-x86_64-unknown-linux-musl.tar.gz"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 1184,
       "digest": "sha256:5eba6040689c90f4ccd54def70691487a778d25111c372edfbdfa373ea54c36d",
-      "download_count": 327,
+      "download_count": 866,
       "created_at": "2026-10-15T07:54:59Z",
       "updated_at": "2026-10-15T07:54:59Z",
       "browser_download_url": "https://github.com/casey/just/releases/download/1.59.0/SHA256SUMS"
@@ -474,14 +474,14 @@
   "body": "### Breaking\r\n- Require unicode paths ([#3708](https://github.com/casey/just/pull/3708) by [casey](https://github.com/casey))\r\n\r\n### Added\r\n- Allow `--working-directory` without `--justfile` ([#3720](https://github.com/casey/just/pull/3720) by [casey](https://github.com/casey))\r\n- Allow `--usage` with module path to show usage for all recipes in module ([#3718](https://github.com/casey/just/pull/3718) by [casey](https://github.com/casey))\r\n- Add `[cache(environment)]` to add and remove variables from cache key ([#3696](https://github.com/casey/just/pull/3696) by [casey](https://github.com/casey))\r\n\r\n### Fixed\r\n- Only emit byte order mark for Powershell on Windows ([#3745](https://github.com/casey/just/pull/3745) by [casey](https://github.com/casey))\r\n- Handle minified JSON in install script ([#3737](https://github.com/casey/just/pull/3737) by [casey](https://github.com/casey))\r\n\r\n### Changed\r\n- Pass justfile to default chooser via environment variable ([#3742](https://github.com/casey/just/pull/3742) by [casey](https://github.com/casey))\r\n\r\n### Misc\r\n- Allow `fixme` and `xxx` in `bin/forbid` ([#3734](https://github.com/casey/just/pull/3734) by [casey](https://github.com/casey))\r\n- Ignore broken pipe errors when printing to standard output ([#3733](https://github.com/casey/just/pull/3733) by [casey](https://github.com/casey))\r\n- Use snake case lint names in `Cargo.toml` ([#3732](https://github.com/casey/just/pull/3732) by [casey](https://github.com/casey))\r\n- Display Chinese text using sans-serif font family ([#3727](https://github.com/casey/just/pull/3727) by [casey](https://github.com/casey))\r\n- Add `lang=zh` to Chinese manual link ([#3724](https://github.com/casey/just/pull/3724) by [casey](https://github.com/casey))\r\n- Yield module and recipe paths in tree order ([#3717](https://github.com/casey/just/pull/3717) by [casey](https://github.com/casey))\r\n- Complete arguments for `--clean` and `--list` ([#3716](https://github.com/casey/just/pull/3716) by [casey](https://github.com/casey))\r\n- Use consistent spacing in `--usage` output ([#3715](https://github.com/casey/just/pull/3715) by [casey](https://github.com/casey))\r\n- Add GitHub Actions workflow lockfile ([#3714](https://github.com/casey/just/pull/3714) by [casey](https://github.com/casey))\r\n- Use snafu context selectors ([#3711](https://github.com/casey/just/pull/3711) by [casey](https://github.com/casey))\r\n- Unwrap in `justfile_directory()` ([#3710](https://github.com/casey/just/pull/3710) by [casey](https://github.com/casey))\r\n- Update tabled dependency ([#3709](https://github.com/casey/just/pull/3709) by [casey](https://github.com/casey))\r\n- Optimize CI ([#3706](https://github.com/casey/just/pull/3706) by [casey](https://github.com/casey))\r\n- Remove function name from function error messages ([#3705](https://github.com/casey/just/pull/3705) by [casey](https://github.com/casey))\r\n- Remove unused `JUST_LOG` export ([#3701](https://github.com/casey/just/pull/3701) by [casey](https://github.com/casey))\r\n- Document `[cache(environment)]` ([#3697](https://github.com/casey/just/pull/3697) by [casey](https://github.com/casey))\r\n- Escape list heading default newline in man page ([#3692](https://github.com/casey/just/pull/3692) by [casey](https://github.com/casey))",
   "reactions": {
     "url": "https://api.github.com/repos/casey/just/releases/413491669/reactions",
-    "total_count": 13,
+    "total_count": 14,
     "+1": 5,
     "-1": 0,
     "laugh": 0,
     "hooray": 0,
     "confused": 0,
     "heart": 3,
-    "rocket": 5,
+    "rocket": 6,
     "eyes": 0
   }
 }
