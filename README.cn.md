@@ -48,7 +48,7 @@ x install just
 
 ## 流行度
 
-- **Star**: 36,389 · **Fork**: 863 · **开放 issue**: 1,496 · **贡献者**: 213
+- **Star**: 36,402 · **Fork**: 863 · **开放 issue**: 1,496 · **贡献者**: 213
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install just
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 1 | 21 | 1 | 20 | 4 | 20 |
-| last60d | 2026-08-23 | 1 | 27 | 1 | 23 | 5 | 27 |
-| 90d | 2026-07-24 | 2 | 36 | 1 | 32 | 9 | 33 |
-| last180d | 2026-04-25 | 10 | 320 | 1 | 81 | 16 | 319 |
-| 360d | 2025-10-27 | 21 | 507 | 1 | 183 | 33 | 512 |
-| last720d | 2024-11-01 | 32 | 656 | 1 | 369 | 87 | 662 |
+| 30d | 2026-09-23 | 1 | 21 | 1 | 19 | 4 | 20 |
+| last60d | 2026-08-24 | 1 | 27 | 1 | 23 | 5 | 27 |
+| 90d | 2026-07-25 | 2 | 35 | 1 | 30 | 9 | 33 |
+| last180d | 2026-04-26 | 10 | 319 | 1 | 81 | 16 | 319 |
+| 360d | 2025-10-28 | 21 | 507 | 1 | 183 | 33 | 512 |
+| last720d | 2024-11-02 | 32 | 655 | 1 | 368 | 87 | 660 |
 
 ## Release 资产
 
@@ -82,6 +82,25 @@ x install just
 | [just-1.59.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-x86_64-unknown-linux-musl.tar.gz) | 2.5 MiB | `native/linux/x64/musl` |
 | [SHA256SUMS](https://github.com/casey/just/releases/download/1.59.0/SHA256SUMS) | 1.2 KiB | `other` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/just) 上共有 **138** 个发行版报告此项目。**37** 个 ✅ 已是最新上游版本，**86** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `1.59.0` | ✅ latest |
+| Debian 14 | `1.59.0` | ✅ latest |
+| Debian 13 | `1.40.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.45.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.21.0` | ⚠️ outdated |
+| Arch | `1.59.0` | ✅ latest |
+| Homebrew | `1.59.0` | ✅ latest |
+| Fedora rawhide | `1.59.0` | ✅ latest |
+| Nix unstable | `1.58.0` | ⚠️ outdated |
+| Void | `1.58.0` | ⚠️ outdated |
+| Alpine edge | `1.59.0` | ✅ latest |
+| openSUSE Tumbleweed | `1.58.0` | ⚠️ outdated |
+
 ## 改进这些数据
 
 just 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `just` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -91,4 +110,4 @@ just 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T05:26:32Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T05:32:26Z._

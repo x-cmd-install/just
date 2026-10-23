@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 36,389 · **Forks**: 863 · **Open issues**: 1,496 · **Contributors**: 213
+- **Stars**: 36,402 · **Forks**: 863 · **Open issues**: 1,496 · **Contributors**: 213
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 1 | 21 | 1 | 20 | 4 | 20 |
-| last60d | 2026-08-23 | 1 | 27 | 1 | 23 | 5 | 27 |
-| 90d | 2026-07-24 | 2 | 36 | 1 | 32 | 9 | 33 |
-| last180d | 2026-04-25 | 10 | 320 | 1 | 81 | 16 | 319 |
-| 360d | 2025-10-27 | 21 | 507 | 1 | 183 | 33 | 512 |
-| last720d | 2024-11-01 | 32 | 656 | 1 | 369 | 87 | 662 |
+| 30d | 2026-09-23 | 1 | 21 | 1 | 19 | 4 | 20 |
+| last60d | 2026-08-24 | 1 | 27 | 1 | 23 | 5 | 27 |
+| 90d | 2026-07-25 | 2 | 35 | 1 | 30 | 9 | 33 |
+| last180d | 2026-04-26 | 10 | 319 | 1 | 81 | 16 | 319 |
+| 360d | 2025-10-28 | 21 | 507 | 1 | 183 | 33 | 512 |
+| last720d | 2024-11-02 | 32 | 655 | 1 | 368 | 87 | 660 |
 
 ## Release assets
 
@@ -82,6 +82,25 @@ Lowest-scoring checks:
 | [just-1.59.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-x86_64-unknown-linux-musl.tar.gz) | 2.5 MiB | `native/linux/x64/musl` |
 | [SHA256SUMS](https://github.com/casey/just/releases/download/1.59.0/SHA256SUMS) | 1.2 KiB | `other` |
 
+## Distribution status
+
+Reported by **138** distros on [repology.org](https://repology.org/project/just). **37** are ✅ on the latest upstream release, **86** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.59.0` | ✅ latest |
+| Debian 14 | `1.59.0` | ✅ latest |
+| Debian 13 | `1.40.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.45.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.21.0` | ⚠️ outdated |
+| Arch | `1.59.0` | ✅ latest |
+| Homebrew | `1.59.0` | ✅ latest |
+| Fedora rawhide | `1.59.0` | ✅ latest |
+| Nix unstable | `1.58.0` | ⚠️ outdated |
+| Void | `1.58.0` | ⚠️ outdated |
+| Alpine edge | `1.59.0` | ✅ latest |
+| openSUSE Tumbleweed | `1.58.0` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for just lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `just` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -91,4 +110,4 @@ Install metadata for just lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:26:30Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:32:26Z._
