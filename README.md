@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 36,402 · **Forks**: 863 · **Open issues**: 1,496 · **Contributors**: 213
+- **Stars**: 36,409 · **Forks**: 864 · **Open issues**: 1,492 · **Contributors**: 213
 
 ## Totals (cumulative)
 
-- **Releases**: 147 · **Merged PRs**: 1822 · **Open PRs**: 1 · **Closed issues**: 1325 · **Open issues**: 171 · **Commits**: 2004
+- **Releases**: 147 · **Merged PRs**: 1822 · **Open PRs**: 1 · **Closed issues**: 1321 · **Open issues**: 171 · **Commits**: 2004
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-23 | 1 | 21 | 1 | 19 | 4 | 20 |
-| last60d | 2026-08-24 | 1 | 27 | 1 | 23 | 5 | 27 |
-| 90d | 2026-07-25 | 2 | 35 | 1 | 30 | 9 | 33 |
-| last180d | 2026-04-26 | 10 | 319 | 1 | 81 | 16 | 319 |
-| 360d | 2025-10-28 | 21 | 507 | 1 | 183 | 33 | 512 |
-| last720d | 2024-11-02 | 32 | 655 | 1 | 368 | 87 | 660 |
+| 30d | 2026-09-24 | 1 | 20 | 1 | 18 | 4 | 20 |
+| last60d | 2026-08-25 | 1 | 27 | 1 | 23 | 5 | 27 |
+| 90d | 2026-07-26 | 2 | 33 | 1 | 30 | 8 | 33 |
+| last180d | 2026-04-27 | 10 | 319 | 1 | 81 | 16 | 319 |
+| 360d | 2025-10-29 | 21 | 507 | 1 | 183 | 33 | 512 |
+| last720d | 2024-11-03 | 32 | 655 | 1 | 364 | 87 | 659 |
 
 ## Release assets
 
@@ -84,7 +84,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **138** distros on [repology.org](https://repology.org/project/just). **37** are ✅ on the latest upstream release, **86** are ⚠️ on an older version.
+Reported by **139** distros on [repology.org](https://repology.org/project/just). **38** are ✅ on the latest upstream release, **86** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -110,4 +110,4 @@ Install metadata for just lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261023.yml` · 2026-10-23T05:32:26Z._
+_Snapshot: `data/card/261024.yml` · 2026-10-24T05:16:48Z._
