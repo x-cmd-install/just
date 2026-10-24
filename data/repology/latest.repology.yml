@@ -917,24 +917,6 @@
   categories:
     - Unspecified
 - repo: fedora_41
-  subrepo: release
-  srcname: rust-just
-  binnames:
-    - just
-    - rust-just-devel
-    - rust-just+default-devel
-    - rust-just-debuginfo
-    - rust-just-debugsource
-  visiblename: rust-just
-  version: 1.35.0
-  origversion: 1.35.0-1.fc41
-  status: legacy
-  summary: Just a command runner
-  licenses:
-    - CC0-1.0
-  categories:
-    - Unspecified
-- repo: fedora_41
   subrepo: updates
   srcname: rust-just
   binnames:
@@ -947,6 +929,24 @@
   version: 1.43.0
   origversion: 1.43.0-1.fc41
   status: outdated
+  summary: Just a command runner
+  licenses:
+    - CC0-1.0
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: rust-just
+  binnames:
+    - just
+    - rust-just-devel
+    - rust-just+default-devel
+    - rust-just-debuginfo
+    - rust-just-debugsource
+  visiblename: rust-just
+  version: 1.35.0
+  origversion: 1.35.0-1.fc41
+  status: legacy
   summary: Just a command runner
   licenses:
     - CC0-1.0
@@ -1025,24 +1025,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: updates
-  srcname: rust-just
-  binnames:
-    - just
-    - rust-just-devel
-    - rust-just+default-devel
-    - rust-just-debuginfo
-    - rust-just-debugsource
-  visiblename: rust-just
-  version: 1.57.0
-  origversion: 1.57.0-1.fc44
-  status: outdated
-  summary: Just a command runner
-  licenses:
-    - CC0-1.0
-  categories:
-    - Unspecified
-- repo: fedora_44
   subrepo: release
   srcname: rust-just
   binnames:
@@ -1055,6 +1037,24 @@
   version: 1.47.1
   origversion: 1.47.1-1.fc44
   status: legacy
+  summary: Just a command runner
+  licenses:
+    - CC0-1.0
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: updates
+  srcname: rust-just
+  binnames:
+    - just
+    - rust-just-devel
+    - rust-just+default-devel
+    - rust-just-debuginfo
+    - rust-just-debugsource
+  visiblename: rust-just
+  version: 1.57.0
+  origversion: 1.57.0-1.fc44
+  status: outdated
   summary: Just a command runner
   licenses:
     - CC0-1.0
@@ -1130,20 +1130,6 @@
     - ZLIB
   categories:
     - dev-build
-- repo: solus
-  srcname: just
-  binname: just-dbginfo
-  visiblename: just-dbginfo
-  version: 1.57.0
-  origversion: null
-  status: legacy
-  summary: Debug symbols for just
-  maintainers:
-    - david@davidjharder.ca
-  licenses:
-    - CC0-1.0
-  categories:
-    - debug
 - repo: gentoo
   srcname: dev-build/just
   visiblename: dev-build/just
@@ -1259,38 +1245,40 @@
     - ZLIB
   categories:
     - dev-build
+- repo: solus
+  srcname: just
+  binname: just-dbginfo
+  visiblename: just-dbginfo
+  version: 1.57.0
+  origversion: null
+  status: legacy
+  summary: Debug symbols for just
+  maintainers:
+    - david@davidjharder.ca
+  licenses:
+    - CC0-1.0
+  categories:
+    - debug
+- repo: vylen
+  subrepo: extra
+  srcname: just
+  visiblename: just
+  version: 1.59.0
+  origversion: 1.59.0-1
+  status: newest
+  summary: A handy way to save and run project-specific commands
+  maintainers:
+    - wonkru-dev@proton.me
 - repo: spack
   srcname: just
   visiblename: just
-  version: 1.55.1
+  version: master
   origversion: null
-  status: outdated
+  status: rolling
   maintainers:
     - dando18@spack
   licenses:
     - CC0-1.0
-- repo: stalix
-  srcname: bin/just
-  binname: bin/just
-  visiblename: bin/just
-  version: 1.59.0
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: stalix_dev
-  srcname: bin/just
-  binname: bin/just
-  visiblename: bin/just
-  version: 1.59.0
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
 - repo: liguros_develop
   srcname: dev-build/just
   visiblename: dev-build/just
@@ -1497,6 +1485,27 @@
     - xrelkd@github
   licenses:
     - CC0-1.0
+- repo: spack
+  srcname: just
+  visiblename: just
+  version: 1.55.1
+  origversion: null
+  status: outdated
+  maintainers:
+    - dando18@spack
+  licenses:
+    - CC0-1.0
+- repo: stalix
+  srcname: bin/just
+  binname: bin/just
+  visiblename: bin/just
+  version: 1.59.0
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: openbsd
   srcname: sysutils/just
   binname: just
@@ -1547,16 +1556,6 @@
     - (Apache-2.0 OR MIT) AND Unicode-DFS-2016 AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND (Apache-2.0 OR Apache-2.0 WITH LLVM-exception OR MIT) AND (MIT OR Unlicense) AND Apache-2.0 AND BSD-3-Clause AND CC0-1.0 AND MIT AND CC0-1.0
   categories:
     - Development/Tools/Building
-- repo: spack
-  srcname: just
-  visiblename: just
-  version: master
-  origversion: null
-  status: rolling
-  maintainers:
-    - dando18@spack
-  licenses:
-    - CC0-1.0
 - repo: openmandriva_cooker
   subrepo: main/release
   srcname: just
@@ -1754,6 +1753,17 @@
     - CC0-1.0
   categories:
     - programming.tools
+- repo: stalix_dev
+  srcname: bin/just
+  binname: bin/just
+  visiblename: bin/just
+  version: 1.59.0
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: t2
   srcname: just
   visiblename: just
@@ -1865,16 +1875,6 @@
     - cinerea0@protonmail.com
   licenses:
     - CC0-1.0
-- repo: vylen
-  subrepo: extra
-  srcname: just
-  visiblename: just
-  version: 1.59.0
-  origversion: 1.59.0-1
-  status: newest
-  summary: A handy way to save and run project-specific commands
-  maintainers:
-    - wonkru-dev@proton.me
 - repo: wikidata
   srcname: Q107993962
   visiblename: just
@@ -1884,3 +1884,13 @@
   summary: command runner
   licenses:
     - Creative Commons CC0 License
+- repo: starkos
+  subrepo: main
+  srcname: just
+  visiblename: just
+  version: 1.59.0
+  origversion: 1.59.0-1
+  status: newest
+  summary: Just a command runner
+  maintainers:
+    - starkos@disroot.org
