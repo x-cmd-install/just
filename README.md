@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 36,432 · **Forks**: 865 · **Open issues**: 1,493 · **Contributors**: 213
+- **Stars**: 36,444 · **Forks**: 865 · **Open issues**: 1,493 · **Contributors**: 213
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 1 | 15 | 1 | 17 | 5 | 10 |
-| last60d | 2026-08-27 | 1 | 27 | 1 | 23 | 5 | 25 |
-| 90d | 2026-07-28 | 2 | 33 | 1 | 30 | 9 | 33 |
-| last180d | 2026-04-29 | 10 | 318 | 1 | 79 | 17 | 318 |
-| 360d | 2025-10-31 | 21 | 507 | 1 | 183 | 34 | 511 |
-| last720d | 2024-11-05 | 32 | 654 | 1 | 362 | 88 | 658 |
+| 30d | 2026-09-27 | 1 | 14 | 1 | 14 | 5 | 10 |
+| last60d | 2026-08-28 | 1 | 27 | 1 | 23 | 5 | 25 |
+| 90d | 2026-07-29 | 2 | 33 | 1 | 30 | 8 | 33 |
+| last180d | 2026-04-30 | 10 | 318 | 1 | 78 | 17 | 318 |
+| 360d | 2025-11-01 | 21 | 506 | 1 | 181 | 34 | 511 |
+| last720d | 2024-11-06 | 32 | 652 | 1 | 361 | 88 | 658 |
 
 ## Release assets
 
@@ -84,7 +84,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **139** distros on [repology.org](https://repology.org/project/just). **42** are ✅ on the latest upstream release, **83** are ⚠️ on an older version.
+Reported by **139** distros on [repology.org](https://repology.org/project/just). **43** are ✅ on the latest upstream release, **82** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -99,7 +99,7 @@ Reported by **139** distros on [repology.org](https://repology.org/project/just)
 | Nix unstable | `1.58.0` | ⚠️ outdated |
 | Void | `1.58.0` | ⚠️ outdated |
 | Alpine edge | `1.59.0` | ✅ latest |
-| openSUSE Tumbleweed | `1.58.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.59.0` | ✅ latest |
 
 ## Improve this data
 
@@ -110,4 +110,4 @@ Install metadata for just lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T05:28:59Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T05:49:13Z._
