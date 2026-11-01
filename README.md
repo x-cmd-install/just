@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 36,493 · **Forks**: 865 · **Open issues**: 1,494 · **Contributors**: 213
+- **Stars**: 36,498 · **Forks**: 865 · **Open issues**: 1,494 · **Contributors**: 213
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 1 | 12 | 1 | 12 | 2 | 11 |
-| last60d | 2026-09-01 | 1 | 26 | 1 | 22 | 5 | 26 |
-| 90d | 2026-08-02 | 2 | 34 | 1 | 31 | 8 | 34 |
-| last180d | 2026-05-04 | 10 | 319 | 1 | 79 | 17 | 319 |
-| 360d | 2025-11-05 | 21 | 507 | 1 | 181 | 33 | 512 |
-| last720d | 2024-11-10 | 32 | 651 | 1 | 360 | 88 | 656 |
+| 30d | 2026-10-02 | 1 | 11 | 1 | 12 | 2 | 11 |
+| last60d | 2026-09-02 | 1 | 26 | 1 | 22 | 5 | 26 |
+| 90d | 2026-08-03 | 2 | 32 | 1 | 31 | 8 | 34 |
+| last180d | 2026-05-05 | 10 | 319 | 1 | 79 | 17 | 319 |
+| 360d | 2025-11-06 | 21 | 507 | 1 | 181 | 33 | 512 |
+| last720d | 2024-11-11 | 32 | 650 | 1 | 360 | 88 | 656 |
 
 ## Release assets
 
@@ -84,7 +84,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **139** distros on [repology.org](https://repology.org/project/just). **46** are ✅ on the latest upstream release, **79** are ⚠️ on an older version.
+Reported by **141** distros on [repology.org](https://repology.org/project/just). **48** are ✅ on the latest upstream release, **77** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -110,4 +110,4 @@ Install metadata for just lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T06:25:45Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T06:53:13Z._
