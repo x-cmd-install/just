@@ -1,66 +1,33 @@
-- repo: homebrew
-  srcname: just
-  visiblename: just
-  version: 1.59.0
-  origversion: null
-  status: newest
-  summary: Handy way to save and run project-specific commands
-- repo: liguros_stable
-  srcname: dev-build/just
-  visiblename: dev-build/just
-  version: 1.42.4
-  origversion: null
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: rust-just
+  binnames:
+    - librust-just-dev
+    - just
+  visiblename: rust-just
+  version: 1.40.0
+  origversion: 1.40.0-1
   status: outdated
-  summary: Just a command runner (with syntax inspired by 'make')
   maintainers:
-    - joe@wt.gd
-    - proxy-maint@gentoo.org
-  licenses:
-    - CC0-1.0
-    - Apache-2.0
-    - BSD-2
-    - MIT
-    - MPL-2.0
-    - Unicode-3.0
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
   categories:
-    - dev-build
+    - misc
+- repo: gnuguix
+  srcname: just
+  binname: just
+  visiblename: just
+  version: 1.59.0
+  origversion: null
+  status: newest
+  summary: Command runner
 - repo: homebrew
   srcname: just
   visiblename: just
-  version: HEAD
+  version: 1.59.0
   origversion: null
-  status: rolling
+  status: newest
   summary: Handy way to save and run project-specific commands
-- repo: kali_rolling
-  subrepo: main
-  srcname: rust-just
-  binnames:
-    - librust-just-dev
-    - just
-  visiblename: rust-just
-  version: 1.59.0
-  origversion: 1.59.0-1
-  status: newest
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - ncts@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: rust-just
-  binnames:
-    - librust-just-dev
-    - just
-  visiblename: rust-just
-  version: 1.59.0
-  origversion: 1.59.0-1
-  status: newest
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - ncts@debian.org
-  categories:
-    - misc
 - repo: aerynos
   srcname: just
   visiblename: just
@@ -1069,6 +1036,13 @@
     - CC0-1.0
   categories:
     - Unspecified
+- repo: homebrew
+  srcname: just
+  visiblename: just
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Handy way to save and run project-specific commands
 - repo: fedora_43
   subrepo: release
   srcname: rust-just
@@ -1088,24 +1062,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: updates
-  srcname: rust-just
-  binnames:
-    - just
-    - rust-just-devel
-    - rust-just+default-devel
-    - rust-just-debuginfo
-    - rust-just-debugsource
-  visiblename: rust-just
-  version: 1.59.0
-  origversion: 1.59.0-1.fc44
-  status: newest
-  summary: Just a command runner
-  licenses:
-    - CC0-1.0
-  categories:
-    - Unspecified
-- repo: fedora_44
   subrepo: release
   srcname: rust-just
   binnames:
@@ -1118,6 +1074,24 @@
   version: 1.47.1
   origversion: 1.47.1-1.fc44
   status: legacy
+  summary: Just a command runner
+  licenses:
+    - CC0-1.0
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: updates
+  srcname: rust-just
+  binnames:
+    - just
+    - rust-just-devel
+    - rust-just+default-devel
+    - rust-just-debuginfo
+    - rust-just-debugsource
+  visiblename: rust-just
+  version: 1.59.0
+  origversion: 1.59.0-1.fc44
+  status: newest
   summary: Just a command runner
   licenses:
     - CC0-1.0
@@ -1193,38 +1167,6 @@
     - ZLIB
   categories:
     - dev-build
-- repo: spack
-  srcname: just
-  visiblename: just
-  version: 1.55.1
-  origversion: null
-  status: outdated
-  maintainers:
-    - dando18@spack
-  licenses:
-    - CC0-1.0
-- repo: stalix
-  srcname: bin/just
-  binname: bin/just
-  visiblename: bin/just
-  version: 1.59.0
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: stalix_dev
-  srcname: bin/just
-  binname: bin/just
-  visiblename: bin/just
-  version: 1.59.0
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
 - repo: gentoo
   srcname: dev-build/just
   visiblename: dev-build/just
@@ -1265,14 +1207,40 @@
     - ZLIB
   categories:
     - dev-build
-- repo: gnuguix
-  srcname: just
-  binname: just
-  visiblename: just
+- repo: kali_rolling
+  subrepo: main
+  srcname: rust-just
+  binnames:
+    - librust-just-dev
+    - just
+  visiblename: rust-just
   version: 1.59.0
-  origversion: null
+  origversion: 1.59.0-1
   status: newest
-  summary: Command runner
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - misc
+- repo: liguros_stable
+  srcname: dev-build/just
+  visiblename: dev-build/just
+  version: 1.42.4
+  origversion: null
+  status: outdated
+  summary: Just a command runner (with syntax inspired by 'make')
+  maintainers:
+    - joe@wt.gd
+    - proxy-maint@gentoo.org
+  licenses:
+    - CC0-1.0
+    - Apache-2.0
+    - BSD-2
+    - MIT
+    - MPL-2.0
+    - Unicode-3.0
+  categories:
+    - dev-build
 - repo: liguros_stable
   srcname: dev-build/just
   visiblename: dev-build/just
@@ -1332,16 +1300,6 @@
     - ZLIB
   categories:
     - dev-build
-- repo: starkos
-  subrepo: main
-  srcname: just
-  visiblename: just
-  version: 1.59.0
-  origversion: 1.59.0-1
-  status: newest
-  summary: Just a command runner
-  maintainers:
-    - starkos@disroot.org
 - repo: liguros_develop
   srcname: dev-build/just
   visiblename: dev-build/just
@@ -1402,23 +1360,23 @@
   srcname: just
   binname: just
   visiblename: just
-  version: 1.58.0
-  origversion: 1.58.0-1
+  version: 1.14.0
+  origversion: 1.14.0-1
   status: outdated
   summary: A handy way to save and run project-specific commands
   licenses:
-    - CC0-1.0
+    - custom:CC0
 - repo: manjaro_testing
   subrepo: extra
   srcname: just
   binname: just
   visiblename: just
-  version: 1.58.0
-  origversion: 1.58.0-1
+  version: 1.14.0
+  origversion: 1.14.0-1
   status: outdated
   summary: A handy way to save and run project-specific commands
   licenses:
-    - CC0-1.0
+    - custom:CC0
 - repo: manjaro_unstable
   subrepo: extra
   srcname: just
@@ -1548,19 +1506,6 @@
     - xrelkd@github
   licenses:
     - CC0-1.0
-- repo: t2
-  srcname: just
-  visiblename: just
-  version: 1.59.0
-  origversion: null
-  status: newest
-  summary: A command runner
-  maintainers:
-    - rene@exactco.de
-  licenses:
-    - CC0
-  categories:
-    - base/development
 - repo: openbsd
   srcname: sysutils/just
   binname: just
@@ -1573,6 +1518,16 @@
     - edd@openbsd.org
   categories:
     - sysutils
+- repo: termux
+  srcname: just
+  binname: just
+  visiblename: just
+  version: 1.59.0
+  origversion: null
+  status: newest
+  summary: A handy way to save and run project-specific commands
+  maintainers:
+    - flipee@github
 - repo: openmandriva_6_0
   subrepo: main/release
   srcname: just
@@ -1698,21 +1653,6 @@
     - ncts@debian.org
   categories:
     - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: rust-just
-  binnames:
-    - librust-just-dev
-    - just
-  visiblename: rust-just
-  version: 1.40.0
-  origversion: 1.40.0-1
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - ncts@debian.org
-  categories:
-    - misc
 - repo: pureos_landing
   subrepo: landing/main
   srcname: rust-just
@@ -1738,6 +1678,21 @@
   version: 1.40.0
   origversion: 1.40.0-1
   status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: rust-just
+  binnames:
+    - librust-just-dev
+    - just
+  visiblename: rust-just
+  version: 1.59.0
+  origversion: 1.59.0-1
+  status: newest
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
     - ncts@debian.org
@@ -1817,16 +1772,61 @@
     - dando18@spack
   licenses:
     - CC0-1.0
-- repo: termux
+- repo: spack
   srcname: just
-  binname: just
+  visiblename: just
+  version: 1.55.1
+  origversion: null
+  status: outdated
+  maintainers:
+    - dando18@spack
+  licenses:
+    - CC0-1.0
+- repo: stalix
+  srcname: bin/just
+  binname: bin/just
+  visiblename: bin/just
+  version: 1.59.0
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: stalix_dev
+  srcname: bin/just
+  binname: bin/just
+  visiblename: bin/just
+  version: 1.59.0
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: starkos
+  subrepo: main
+  srcname: just
+  visiblename: just
+  version: 1.59.0
+  origversion: 1.59.0-1
+  status: newest
+  summary: Just a command runner
+  maintainers:
+    - starkos@disroot.org
+- repo: t2
+  srcname: just
   visiblename: just
   version: 1.59.0
   origversion: null
   status: newest
-  summary: A handy way to save and run project-specific commands
+  summary: A command runner
   maintainers:
-    - flipee@github
+    - rene@exactco.de
+  licenses:
+    - CC0
+  categories:
+    - base/development
 - repo: ubuntu_24_04
   subrepo: noble/universe
   srcname: rust-just
