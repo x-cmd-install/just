@@ -14,11 +14,11 @@ x install just
 
 ## Code insight
 
-Total: **61,126** lines of code across **287** files in the top 5 languages.
+Total: **61,411** lines of code across **291** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 60,344 | 116 | 5,505 | 272 |
+| Rust | 60,629 | 117 | 5,544 | 276 |
 | Bash | 330 | 6 | 57 | 5 |
 | Sh | 166 | 12 | 36 | 2 |
 | Toml | 141 | 3 | 20 | 7 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.59.0` (2026-10-15)
-- **Last commit**: 2026-10-27
+- **Last commit**: 2026-11-02
 - **Assets in release**: 12
 
 ## Popularity
 
-- **Stars**: 36,498 · **Forks**: 865 · **Open issues**: 1,494 · **Contributors**: 213
+- **Stars**: 36,514 · **Forks**: 865 · **Open issues**: 1,494 · **Contributors**: 213
 
 ## Totals (cumulative)
 
-- **Releases**: 147 · **Merged PRs**: 1823 · **Open PRs**: 1 · **Closed issues**: 1322 · **Open issues**: 172 · **Commits**: 2005
+- **Releases**: 147 · **Merged PRs**: 1830 · **Open PRs**: 0 · **Closed issues**: 1324 · **Open issues**: 170 · **Commits**: 2012
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 1 | 11 | 1 | 12 | 2 | 11 |
-| last60d | 2026-09-02 | 1 | 26 | 1 | 22 | 5 | 26 |
-| 90d | 2026-08-03 | 2 | 32 | 1 | 31 | 8 | 34 |
-| last180d | 2026-05-05 | 10 | 319 | 1 | 79 | 17 | 319 |
-| 360d | 2025-11-06 | 21 | 507 | 1 | 181 | 33 | 512 |
-| last720d | 2024-11-11 | 32 | 650 | 1 | 360 | 88 | 656 |
+| 30d | 2026-10-03 | 1 | 18 | 0 | 12 | 2 | 17 |
+| last60d | 2026-09-03 | 1 | 33 | 0 | 22 | 5 | 33 |
+| 90d | 2026-08-04 | 1 | 39 | 0 | 29 | 8 | 38 |
+| last180d | 2026-05-06 | 10 | 325 | 0 | 80 | 16 | 318 |
+| 360d | 2025-11-07 | 21 | 514 | 0 | 182 | 32 | 516 |
+| last720d | 2024-11-12 | 32 | 656 | 0 | 361 | 86 | 662 |
 
 ## Release assets
 
@@ -110,4 +110,4 @@ Install metadata for just lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T06:53:13Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T06:54:29Z._
