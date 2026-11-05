@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 36,554 · **Forks**: 866 · **Open issues**: 1,496 · **Contributors**: 213
+- **Stars**: 36,576 · **Forks**: 867 · **Open issues**: 1,497 · **Contributors**: 213
 
 ## Totals (cumulative)
 
-- **Releases**: 147 · **Merged PRs**: 1830 · **Open PRs**: 0 · **Closed issues**: 1324 · **Open issues**: 172 · **Commits**: 2012
+- **Releases**: 147 · **Merged PRs**: 1830 · **Open PRs**: 0 · **Closed issues**: 1324 · **Open issues**: 173 · **Commits**: 2012
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 1 | 18 | 0 | 12 | 4 | 17 |
-| last60d | 2026-09-05 | 1 | 33 | 0 | 22 | 7 | 33 |
-| 90d | 2026-08-06 | 1 | 38 | 0 | 27 | 10 | 38 |
-| last180d | 2026-05-08 | 10 | 319 | 0 | 79 | 18 | 318 |
-| 360d | 2025-11-09 | 21 | 513 | 0 | 180 | 34 | 516 |
-| last720d | 2024-11-14 | 32 | 656 | 0 | 361 | 88 | 662 |
+| 30d | 2026-10-06 | 1 | 18 | 0 | 12 | 5 | 17 |
+| last60d | 2026-09-06 | 1 | 33 | 0 | 22 | 8 | 33 |
+| 90d | 2026-08-07 | 1 | 38 | 0 | 27 | 11 | 38 |
+| last180d | 2026-05-09 | 10 | 319 | 0 | 77 | 19 | 318 |
+| 360d | 2025-11-10 | 21 | 512 | 0 | 178 | 35 | 516 |
+| last720d | 2024-11-15 | 32 | 655 | 0 | 360 | 89 | 662 |
 
 ## Release assets
 
@@ -94,7 +94,7 @@ Reported by **141** distros on [repology.org](https://repology.org/project/just)
 | Ubuntu 26.04 LTS | `1.45.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.21.0` | ⚠️ outdated |
 | Arch | `1.59.0` | ✅ latest |
-| Homebrew | `1.59.0` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `1.59.0` | ✅ latest |
 | Nix unstable | `1.59.0` | ✅ latest |
 | Void | `1.58.0` | ⚠️ outdated |
@@ -110,4 +110,4 @@ Install metadata for just lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T07:15:09Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T07:36:48Z._
