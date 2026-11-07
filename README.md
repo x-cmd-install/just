@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 36,588 · **Forks**: 868 · **Open issues**: 1,498 · **Contributors**: 212
+- **Stars**: 36,599 · **Forks**: 868 · **Open issues**: 1,498 · **Contributors**: 212
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 1 | 18 | 0 | 13 | 5 | 17 |
-| last60d | 2026-09-07 | 1 | 33 | 0 | 23 | 8 | 33 |
-| 90d | 2026-08-08 | 1 | 38 | 0 | 28 | 11 | 38 |
-| last180d | 2026-05-10 | 10 | 318 | 0 | 77 | 19 | 318 |
-| 360d | 2025-11-11 | 21 | 512 | 0 | 178 | 35 | 516 |
-| last720d | 2024-11-16 | 32 | 653 | 0 | 360 | 89 | 662 |
+| 30d | 2026-10-08 | 1 | 17 | 0 | 11 | 5 | 17 |
+| last60d | 2026-09-08 | 1 | 33 | 0 | 23 | 8 | 33 |
+| 90d | 2026-08-09 | 1 | 38 | 0 | 28 | 11 | 38 |
+| last180d | 2026-05-11 | 9 | 318 | 0 | 77 | 19 | 318 |
+| 360d | 2025-11-12 | 21 | 510 | 0 | 177 | 35 | 516 |
+| last720d | 2024-11-17 | 32 | 651 | 0 | 360 | 89 | 660 |
 
 ## Release assets
 
@@ -84,7 +84,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **141** distros on [repology.org](https://repology.org/project/just). **49** are ✅ on the latest upstream release, **76** are ⚠️ on an older version.
+Reported by **141** distros on [repology.org](https://repology.org/project/just). **50** are ✅ on the latest upstream release, **75** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -94,7 +94,7 @@ Reported by **141** distros on [repology.org](https://repology.org/project/just)
 | Ubuntu 26.04 LTS | `1.45.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.21.0` | ⚠️ outdated |
 | Arch | `1.59.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `1.59.0` | ✅ latest |
 | Fedora rawhide | `1.59.0` | ✅ latest |
 | Nix unstable | `1.59.0` | ✅ latest |
 | Void | `1.58.0` | ⚠️ outdated |
@@ -110,4 +110,4 @@ Install metadata for just lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T07:33:55Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T06:52:12Z._
