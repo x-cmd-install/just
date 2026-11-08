@@ -1,12 +1,33 @@
-- repo: scoop
+- repo: raspbian_testing
   subrepo: main
-  binname: just
-  visiblename: just
+  srcname: rust-just
+  binnames:
+    - librust-just-dev
+    - just
+  visiblename: rust-just
   version: 1.59.0
-  origversion: null
+  origversion: 1.59.0-1
   status: newest
-  licenses:
-    - CC0-1.0
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - misc
+- repo: kali_rolling
+  subrepo: main
+  srcname: rust-just
+  binnames:
+    - librust-just-dev
+    - just
+  visiblename: rust-just
+  version: 1.59.0
+  origversion: 1.59.0-1
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - misc
 - repo: aerynos
   srcname: just
   visiblename: just
@@ -604,6 +625,38 @@
     - CC0-1.0
   categories:
     - Development/Other
+- repo: nix_stable_25_11
+  srcname: just
+  visiblename: just
+  version: 1.43.1
+  origversion: null
+  status: outdated
+  summary: Handy way to save and run project-specific commands
+  maintainers:
+    - xrelkd@github
+    - hello+nixpkgs@j-k.io
+    - xiaoyin_c@qq.com
+  licenses:
+    - CC0-1.0
+- repo: liguros_stable
+  srcname: dev-build/just
+  visiblename: dev-build/just
+  version: 1.42.4
+  origversion: null
+  status: outdated
+  summary: Just a command runner (with syntax inspired by 'make')
+  maintainers:
+    - joe@wt.gd
+    - proxy-maint@gentoo.org
+  licenses:
+    - CC0-1.0
+    - Apache-2.0
+    - BSD-2
+    - MIT
+    - MPL-2.0
+    - Unicode-3.0
+  categories:
+    - dev-build
 - repo: altsisyphus
   srcname: just
   binnames:
@@ -851,20 +904,6 @@
     - CC0-1.0
   categories:
     - Unspecified
-- repo: solus
-  srcname: just
-  binname: just
-  visiblename: just
-  version: 1.59.0
-  origversion: null
-  status: newest
-  summary: Just a command runner
-  maintainers:
-    - david@davidjharder.ca
-  licenses:
-    - CC0-1.0
-  categories:
-    - programming.tools
 - repo: fedora_39
   subrepo: release
   srcname: rust-just
@@ -940,24 +979,6 @@
   categories:
     - Unspecified
 - repo: fedora_41
-  subrepo: updates
-  srcname: rust-just
-  binnames:
-    - just
-    - rust-just-devel
-    - rust-just+default-devel
-    - rust-just-debuginfo
-    - rust-just-debugsource
-  visiblename: rust-just
-  version: 1.43.0
-  origversion: 1.43.0-1.fc41
-  status: outdated
-  summary: Just a command runner
-  licenses:
-    - CC0-1.0
-  categories:
-    - Unspecified
-- repo: fedora_41
   subrepo: release
   srcname: rust-just
   binnames:
@@ -970,6 +991,24 @@
   version: 1.35.0
   origversion: 1.35.0-1.fc41
   status: legacy
+  summary: Just a command runner
+  licenses:
+    - CC0-1.0
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: updates
+  srcname: rust-just
+  binnames:
+    - just
+    - rust-just-devel
+    - rust-just+default-devel
+    - rust-just-debuginfo
+    - rust-just-debugsource
+  visiblename: rust-just
+  version: 1.43.0
+  origversion: 1.43.0-1.fc41
+  status: outdated
   summary: Just a command runner
   licenses:
     - CC0-1.0
@@ -993,6 +1032,25 @@
     - CC0-1.0
   categories:
     - Unspecified
+- repo: liguros_stable
+  srcname: dev-build/just
+  visiblename: dev-build/just
+  version: 1.41.0
+  origversion: null
+  status: legacy
+  summary: Just a command runner (with syntax inspired by 'make')
+  maintainers:
+    - joe@wt.gd
+    - proxy-maint@gentoo.org
+  licenses:
+    - CC0-1.0
+    - Apache-2.0
+    - BSD-2
+    - MIT
+    - MPL-2.0
+    - Unicode-3.0
+  categories:
+    - dev-build
 - repo: fedora_42
   subrepo: updates
   srcname: rust-just
@@ -1006,24 +1064,6 @@
   version: 1.50.0
   origversion: 1.50.0-1.fc42
   status: outdated
-  summary: Just a command runner
-  licenses:
-    - CC0-1.0
-  categories:
-    - Unspecified
-- repo: fedora_43
-  subrepo: release
-  srcname: rust-just
-  binnames:
-    - just
-    - rust-just-devel
-    - rust-just+default-devel
-    - rust-just-debuginfo
-    - rust-just-debugsource
-  visiblename: rust-just
-  version: 1.43.0
-  origversion: 1.43.0-1.fc43
-  status: legacy
   summary: Just a command runner
   licenses:
     - CC0-1.0
@@ -1047,7 +1087,7 @@
     - CC0-1.0
   categories:
     - Unspecified
-- repo: fedora_44
+- repo: fedora_43
   subrepo: release
   srcname: rust-just
   binnames:
@@ -1057,8 +1097,8 @@
     - rust-just-debuginfo
     - rust-just-debugsource
   visiblename: rust-just
-  version: 1.47.1
-  origversion: 1.47.1-1.fc44
+  version: 1.43.0
+  origversion: 1.43.0-1.fc43
   status: legacy
   summary: Just a command runner
   licenses:
@@ -1078,6 +1118,24 @@
   version: 1.59.0
   origversion: 1.59.0-1.fc44
   status: newest
+  summary: Just a command runner
+  licenses:
+    - CC0-1.0
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: rust-just
+  binnames:
+    - just
+    - rust-just-devel
+    - rust-just+default-devel
+    - rust-just-debuginfo
+    - rust-just-debugsource
+  visiblename: rust-just
+  version: 1.47.1
+  origversion: 1.47.1-1.fc44
+  status: legacy
   summary: Just a command runner
   licenses:
     - CC0-1.0
@@ -1113,6 +1171,21 @@
     - yuri@freebsd.org
   categories:
     - deskutils
+- repo: raspbian_stable
+  subrepo: main
+  srcname: rust-just
+  binnames:
+    - librust-just-dev
+    - just
+  visiblename: rust-just
+  version: 1.40.0
+  origversion: 1.40.0-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - misc
 - repo: gentoo
   srcname: dev-build/just
   visiblename: dev-build/just
@@ -1153,29 +1226,6 @@
     - ZLIB
   categories:
     - dev-build
-- repo: msys2_ucrt64
-  srcname: mingw-w64-just
-  binname: mingw-w64-ucrt-x86_64-just
-  visiblename: mingw-w64-ucrt-x86_64-just
-  version: 1.59.0
-  origversion: 1.59.0-1
-  status: newest
-  summary: Just a command runner (mingw-w64)
-  licenses:
-    - spdx:CC0-1.0
-- repo: nix_stable_24_05
-  srcname: just
-  visiblename: just
-  version: 1.28.0
-  origversion: null
-  status: outdated
-  summary: A handy way to save and run project-specific commands
-  maintainers:
-    - xrelkd@github
-    - hello+nixpkgs@j-k.io
-    - happy.plan4249@valkor.net
-  licenses:
-    - CC0-1.0
 - repo: gentoo
   srcname: dev-build/just
   visiblename: dev-build/just
@@ -1238,94 +1288,6 @@
   origversion: null
   status: rolling
   summary: Handy way to save and run project-specific commands
-- repo: kali_rolling
-  subrepo: main
-  srcname: rust-just
-  binnames:
-    - librust-just-dev
-    - just
-  visiblename: rust-just
-  version: 1.59.0
-  origversion: 1.59.0-1
-  status: newest
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - ncts@debian.org
-  categories:
-    - misc
-- repo: liguros_stable
-  srcname: dev-build/just
-  visiblename: dev-build/just
-  version: 1.42.4
-  origversion: null
-  status: outdated
-  summary: Just a command runner (with syntax inspired by 'make')
-  maintainers:
-    - joe@wt.gd
-    - proxy-maint@gentoo.org
-  licenses:
-    - CC0-1.0
-    - Apache-2.0
-    - BSD-2
-    - MIT
-    - MPL-2.0
-    - Unicode-3.0
-  categories:
-    - dev-build
-- repo: liguros_stable
-  srcname: dev-build/just
-  visiblename: dev-build/just
-  version: 1.41.0
-  origversion: null
-  status: legacy
-  summary: Just a command runner (with syntax inspired by 'make')
-  maintainers:
-    - joe@wt.gd
-    - proxy-maint@gentoo.org
-  licenses:
-    - CC0-1.0
-    - Apache-2.0
-    - BSD-2
-    - MIT
-    - MPL-2.0
-    - Unicode-3.0
-  categories:
-    - dev-build
-- repo: nix_stable_24_11
-  srcname: just
-  visiblename: just
-  version: 1.38.0
-  origversion: null
-  status: outdated
-  summary: Handy way to save and run project-specific commands
-  maintainers:
-    - xrelkd@github
-    - hello+nixpkgs@j-k.io
-  licenses:
-    - CC0-1.0
-- repo: nix_stable_25_05
-  srcname: just
-  visiblename: just
-  version: 1.40.0
-  origversion: null
-  status: outdated
-  summary: Handy way to save and run project-specific commands
-  maintainers:
-    - xrelkd@github
-    - hello+nixpkgs@j-k.io
-    - xiaoyin_c@qq.com
-  licenses:
-    - CC0-1.0
-- repo: slackbuilds
-  srcname: development/just
-  visiblename: development/just
-  version: 1.59.0
-  origversion: null
-  status: newest
-  maintainers:
-    - boxjake.romero@protonmail.com
-  categories:
-    - development
 - repo: liguros_develop
   srcname: dev-build/just
   visiblename: dev-build/just
@@ -1485,10 +1447,45 @@
   summary: A handy way to save and run project-specific commands
   licenses:
     - spdx:CC0-1.0
-- repo: nix_stable_25_11
+- repo: msys2_ucrt64
+  srcname: mingw-w64-just
+  binname: mingw-w64-ucrt-x86_64-just
+  visiblename: mingw-w64-ucrt-x86_64-just
+  version: 1.59.0
+  origversion: 1.59.0-1
+  status: newest
+  summary: Just a command runner (mingw-w64)
+  licenses:
+    - spdx:CC0-1.0
+- repo: nix_stable_24_05
   srcname: just
   visiblename: just
-  version: 1.43.1
+  version: 1.28.0
+  origversion: null
+  status: outdated
+  summary: A handy way to save and run project-specific commands
+  maintainers:
+    - xrelkd@github
+    - hello+nixpkgs@j-k.io
+    - happy.plan4249@valkor.net
+  licenses:
+    - CC0-1.0
+- repo: nix_stable_24_11
+  srcname: just
+  visiblename: just
+  version: 1.38.0
+  origversion: null
+  status: outdated
+  summary: Handy way to save and run project-specific commands
+  maintainers:
+    - xrelkd@github
+    - hello+nixpkgs@j-k.io
+  licenses:
+    - CC0-1.0
+- repo: nix_stable_25_05
+  srcname: just
+  visiblename: just
+  version: 1.40.0
   origversion: null
   status: outdated
   summary: Handy way to save and run project-specific commands
@@ -1636,21 +1633,6 @@
   licenses:
     - CC0-1.0
 - repo: parrot
-  subrepo: parrot/main
-  srcname: rust-just
-  binnames:
-    - librust-just-dev
-    - just
-  visiblename: rust-just
-  version: 1.40.0
-  origversion: 1.40.0-1
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - ncts@debian.org
-  categories:
-    - misc
-- repo: parrot
   subrepo: parrot-updates/main
   srcname: rust-just
   binnames:
@@ -1665,6 +1647,35 @@
     - ncts@debian.org
   categories:
     - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: rust-just
+  binnames:
+    - librust-just-dev
+    - just
+  visiblename: rust-just
+  version: 1.40.0
+  origversion: 1.40.0-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - ncts@debian.org
+  categories:
+    - misc
+- repo: pisi_main
+  subrepo: main
+  srcname: programming/build/just
+  visiblename: just
+  version: 1.59.0
+  origversion: null
+  status: newest
+  summary: A handy way to save and run project-specific commands
+  maintainers:
+    - admin@pisilinux.org
+  licenses:
+    - CC0-1.0
+  categories:
+    - app
 - repo: pureos_landing
   subrepo: landing/main
   srcname: rust-just
@@ -1680,36 +1691,6 @@
     - ncts@debian.org
   categories:
     - devel
-- repo: raspbian_stable
-  subrepo: main
-  srcname: rust-just
-  binnames:
-    - librust-just-dev
-    - just
-  visiblename: rust-just
-  version: 1.40.0
-  origversion: 1.40.0-1
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - ncts@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: rust-just
-  binnames:
-    - librust-just-dev
-    - just
-  visiblename: rust-just
-  version: 1.59.0
-  origversion: 1.59.0-1
-  status: newest
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - ncts@debian.org
-  categories:
-    - misc
 - repo: rosa_13
   subrepo: contrib/release
   srcname: just
@@ -1727,6 +1708,39 @@
     - MIT
   categories:
     - Development/Other
+- repo: scoop
+  subrepo: main
+  binname: just
+  visiblename: just
+  version: 1.59.0
+  origversion: null
+  status: newest
+  licenses:
+    - CC0-1.0
+- repo: slackbuilds
+  srcname: development/just
+  visiblename: development/just
+  version: 1.59.0
+  origversion: null
+  status: newest
+  maintainers:
+    - boxjake.romero@protonmail.com
+  categories:
+    - development
+- repo: solus
+  srcname: just
+  binname: just
+  visiblename: just
+  version: 1.59.0
+  origversion: null
+  status: newest
+  summary: Just a command runner
+  maintainers:
+    - david@davidjharder.ca
+  licenses:
+    - CC0-1.0
+  categories:
+    - programming.tools
 - repo: solus
   srcname: just
   binname: just-dbginfo
@@ -1911,9 +1925,9 @@
   srcname: just
   binname: just
   visiblename: just
-  version: 1.58.0
-  origversion: 1.58.0_1
-  status: outdated
+  version: 1.59.0
+  origversion: 1.59.0_1
+  status: newest
   summary: Just a command runner
   maintainers:
     - cinerea0@protonmail.com
