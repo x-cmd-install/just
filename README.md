@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 36,599 · **Forks**: 868 · **Open issues**: 1,498 · **Contributors**: 212
+- **Stars**: 36,606 · **Forks**: 869 · **Open issues**: 1,499 · **Contributors**: 212
 
 ## Totals (cumulative)
 
-- **Releases**: 147 · **Merged PRs**: 1830 · **Open PRs**: 0 · **Closed issues**: 1325 · **Open issues**: 173 · **Commits**: 2012
+- **Releases**: 147 · **Merged PRs**: 1830 · **Open PRs**: 0 · **Closed issues**: 1326 · **Open issues**: 173 · **Commits**: 2012
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 1 | 17 | 0 | 11 | 5 | 17 |
-| last60d | 2026-09-08 | 1 | 33 | 0 | 23 | 8 | 33 |
-| 90d | 2026-08-09 | 1 | 38 | 0 | 28 | 11 | 38 |
-| last180d | 2026-05-11 | 9 | 318 | 0 | 77 | 19 | 318 |
-| 360d | 2025-11-12 | 21 | 510 | 0 | 177 | 35 | 516 |
-| last720d | 2024-11-17 | 32 | 651 | 0 | 360 | 89 | 660 |
+| 30d | 2026-10-09 | 1 | 17 | 0 | 11 | 6 | 17 |
+| last60d | 2026-09-09 | 1 | 33 | 0 | 23 | 9 | 33 |
+| 90d | 2026-08-10 | 1 | 38 | 0 | 28 | 11 | 38 |
+| last180d | 2026-05-12 | 9 | 318 | 0 | 78 | 19 | 318 |
+| 360d | 2025-11-13 | 20 | 510 | 0 | 178 | 35 | 516 |
+| last720d | 2024-11-18 | 32 | 650 | 0 | 361 | 89 | 656 |
 
 ## Release assets
 
@@ -84,7 +84,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **141** distros on [repology.org](https://repology.org/project/just). **50** are ✅ on the latest upstream release, **75** are ⚠️ on an older version.
+Reported by **142** distros on [repology.org](https://repology.org/project/just). **52** are ✅ on the latest upstream release, **74** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -97,7 +97,7 @@ Reported by **141** distros on [repology.org](https://repology.org/project/just)
 | Homebrew | `1.59.0` | ✅ latest |
 | Fedora rawhide | `1.59.0` | ✅ latest |
 | Nix unstable | `1.59.0` | ✅ latest |
-| Void | `1.58.0` | ⚠️ outdated |
+| Void | `1.59.0` | ✅ latest |
 | Alpine edge | `1.59.0` | ✅ latest |
 | openSUSE Tumbleweed | `1.59.0` | ✅ latest |
 
@@ -110,4 +110,4 @@ Install metadata for just lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261107.yml` · 2026-11-07T06:52:12Z._
+_Snapshot: `data/card/261108.yml` · 2026-11-08T06:51:42Z._
