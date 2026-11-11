@@ -14,11 +14,11 @@ x install just
 
 ## Code insight
 
-Total: **61,411** lines of code across **291** files in the top 5 languages.
+Total: **61,461** lines of code across **291** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 60,629 | 117 | 5,544 | 276 |
+| Rust | 60,679 | 117 | 5,553 | 276 |
 | Bash | 330 | 6 | 57 | 5 |
 | Sh | 166 | 12 | 36 | 2 |
 | Toml | 141 | 3 | 20 | 7 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.59.0` (2026-10-15)
-- **Last commit**: 2026-11-02
+- **Last commit**: 2026-11-11
 - **Assets in release**: 12
 
 ## Popularity
 
-- **Stars**: 36,640 · **Forks**: 872 · **Open issues**: 1,499 · **Contributors**: 212
+- **Stars**: 36,655 · **Forks**: 871 · **Open issues**: 1,499 · **Contributors**: 212
 
 ## Totals (cumulative)
 
-- **Releases**: 147 · **Merged PRs**: 1830 · **Open PRs**: 0 · **Closed issues**: 1326 · **Open issues**: 173 · **Commits**: 2012
+- **Releases**: 147 · **Merged PRs**: 1832 · **Open PRs**: 0 · **Closed issues**: 1327 · **Open issues**: 172 · **Commits**: 2014
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 1 | 17 | 0 | 9 | 6 | 14 |
-| last60d | 2026-09-11 | 1 | 33 | 0 | 22 | 9 | 33 |
-| 90d | 2026-08-12 | 1 | 36 | 0 | 27 | 11 | 36 |
-| last180d | 2026-05-14 | 9 | 317 | 0 | 77 | 19 | 317 |
-| 360d | 2025-11-15 | 20 | 510 | 0 | 178 | 35 | 516 |
-| last720d | 2024-11-20 | 32 | 649 | 0 | 360 | 89 | 655 |
+| 30d | 2026-10-12 | 1 | 19 | 0 | 10 | 5 | 16 |
+| last60d | 2026-09-12 | 1 | 35 | 0 | 23 | 8 | 35 |
+| 90d | 2026-08-13 | 1 | 38 | 0 | 27 | 10 | 38 |
+| last180d | 2026-05-15 | 9 | 319 | 0 | 77 | 18 | 319 |
+| 360d | 2025-11-16 | 20 | 512 | 0 | 179 | 34 | 518 |
+| last720d | 2024-11-21 | 31 | 651 | 0 | 359 | 88 | 656 |
 
 ## Release assets
 
@@ -84,7 +84,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **142** distros on [repology.org](https://repology.org/project/just). **54** are ✅ on the latest upstream release, **72** are ⚠️ on an older version.
+Reported by **142** distros on [repology.org](https://repology.org/project/just). **55** are ✅ on the latest upstream release, **71** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -110,4 +110,4 @@ Install metadata for just lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T08:09:41Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T07:16:44Z._
