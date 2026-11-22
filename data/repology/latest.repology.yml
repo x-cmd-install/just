@@ -1,7 +1,27 @@
 - repo: liguros_develop
   srcname: dev-build/just
   visiblename: dev-build/just
-  version: 1.55.1
+  version: 1.58.0
+  origversion: null
+  status: legacy
+  summary: Just a command runner (with syntax inspired by 'make')
+  maintainers:
+    - joe@wt.gd
+    - proxy-maint@gentoo.org
+  licenses:
+    - CC0-1.0
+    - Apache-2.0
+    - BSD-2
+    - MIT
+    - MPL-2.0
+    - Unicode-3.0
+    - ZLIB
+  categories:
+    - dev-build
+- repo: liguros_develop
+  srcname: dev-build/just
+  visiblename: dev-build/just
+  version: 1.57.0
   origversion: null
   status: legacy
   summary: Just a command runner (with syntax inspired by 'make')
@@ -220,17 +240,6 @@
   summary: Just a command runner
   maintainers:
     - jakub@jirutka.cz
-  licenses:
-    - CC0-1.0
-- repo: artix
-  subrepo: galaxy
-  srcname: just
-  binname: just
-  visiblename: just
-  version: 1.59.0
-  origversion: 1.59.0-1
-  status: newest
-  summary: A handy way to save and run project-specific commands
   licenses:
     - CC0-1.0
 - repo: alpine_3_20
@@ -677,26 +686,17 @@
     - chocobo1@aur
   licenses:
     - CC0-1.0
-- repo: liguros_develop
-  srcname: dev-build/just
-  visiblename: dev-build/just
+- repo: artix
+  subrepo: galaxy
+  srcname: just
+  binname: just
+  visiblename: just
   version: 1.59.0
-  origversion: null
+  origversion: 1.59.0-1
   status: newest
-  summary: Just a command runner (with syntax inspired by 'make')
-  maintainers:
-    - joe@wt.gd
-    - proxy-maint@gentoo.org
+  summary: A handy way to save and run project-specific commands
   licenses:
     - CC0-1.0
-    - Apache-2.0
-    - BSD-2
-    - MIT
-    - MPL-2.0
-    - Unicode-3.0
-    - ZLIB
-  categories:
-    - dev-build
 - repo: chimera
   subrepo: user
   srcname: just
@@ -900,6 +900,19 @@
     - CC0-1.0
   categories:
     - Unspecified
+- repo: nix_stable_25_11
+  srcname: just
+  visiblename: just
+  version: 1.43.1
+  origversion: null
+  status: outdated
+  summary: Handy way to save and run project-specific commands
+  maintainers:
+    - xrelkd@github
+    - hello+nixpkgs@j-k.io
+    - xiaoyin_c@qq.com
+  licenses:
+    - CC0-1.0
 - repo: fedora_39
   subrepo: release
   srcname: rust-just
@@ -1065,24 +1078,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: release
-  srcname: rust-just
-  binnames:
-    - just
-    - rust-just-devel
-    - rust-just+default-devel
-    - rust-just-debuginfo
-    - rust-just-debugsource
-  visiblename: rust-just
-  version: 1.47.1
-  origversion: 1.47.1-1.fc44
-  status: legacy
-  summary: Just a command runner
-  licenses:
-    - CC0-1.0
-  categories:
-    - Unspecified
-- repo: fedora_44
   subrepo: updates
   srcname: rust-just
   binnames:
@@ -1100,8 +1095,8 @@
     - CC0-1.0
   categories:
     - Unspecified
-- repo: fedora_45
-  subrepo: updates
+- repo: fedora_44
+  subrepo: release
   srcname: rust-just
   binnames:
     - just
@@ -1110,9 +1105,9 @@
     - rust-just-debuginfo
     - rust-just-debugsource
   visiblename: rust-just
-  version: 1.59.0
-  origversion: 1.59.0-1.fc45
-  status: newest
+  version: 1.47.1
+  origversion: 1.47.1-1.fc44
+  status: legacy
   summary: Just a command runner
   licenses:
     - CC0-1.0
@@ -1131,6 +1126,24 @@
   version: 1.57.0
   origversion: 1.57.0-1.fc45
   status: legacy
+  summary: Just a command runner
+  licenses:
+    - CC0-1.0
+  categories:
+    - Unspecified
+- repo: fedora_45
+  subrepo: updates
+  srcname: rust-just
+  binnames:
+    - just
+    - rust-just-devel
+    - rust-just+default-devel
+    - rust-just-debuginfo
+    - rust-just-debugsource
+  visiblename: rust-just
+  version: 1.59.0
+  origversion: 1.59.0-1.fc45
+  status: newest
   summary: Just a command runner
   licenses:
     - CC0-1.0
@@ -1186,45 +1199,6 @@
     - ZLIB
   categories:
     - dev-build
-- repo: nix_stable_25_05
-  srcname: just
-  visiblename: just
-  version: 1.40.0
-  origversion: null
-  status: outdated
-  summary: Handy way to save and run project-specific commands
-  maintainers:
-    - xrelkd@github
-    - hello+nixpkgs@j-k.io
-    - xiaoyin_c@qq.com
-  licenses:
-    - CC0-1.0
-- repo: nix_stable_25_11
-  srcname: just
-  visiblename: just
-  version: 1.43.1
-  origversion: null
-  status: outdated
-  summary: Handy way to save and run project-specific commands
-  maintainers:
-    - xrelkd@github
-    - hello+nixpkgs@j-k.io
-    - xiaoyin_c@qq.com
-  licenses:
-    - CC0-1.0
-- repo: nix_stable_26_05
-  srcname: just
-  visiblename: just
-  version: 1.51.0
-  origversion: null
-  status: outdated
-  summary: Handy way to save and run project-specific commands
-  maintainers:
-    - xrelkd@github
-    - hello+nixpkgs@j-k.io
-    - xiaoyin_c@qq.com
-  licenses:
-    - CC0-1.0
 - repo: gentoo
   srcname: dev-build/just
   visiblename: dev-build/just
@@ -1341,6 +1315,19 @@
     - Unicode-3.0
   categories:
     - dev-build
+- repo: nix_stable_26_05
+  srcname: just
+  visiblename: just
+  version: 1.51.0
+  origversion: null
+  status: outdated
+  summary: Handy way to save and run project-specific commands
+  maintainers:
+    - xrelkd@github
+    - hello+nixpkgs@j-k.io
+    - xiaoyin_c@qq.com
+  licenses:
+    - CC0-1.0
 - repo: nix_unstable
   srcname: just
   visiblename: just
@@ -1354,20 +1341,6 @@
     - xrelkd@github
   licenses:
     - CC0-1.0
-- repo: solus
-  srcname: just
-  binname: just-dbginfo
-  visiblename: just-dbginfo
-  version: 1.59.0
-  origversion: null
-  status: newest
-  summary: Debug symbols for just
-  maintainers:
-    - david@davidjharder.ca
-  licenses:
-    - CC0-1.0
-  categories:
-    - debug
 - repo: liguros_stable
   srcname: dev-build/just
   visiblename: dev-build/just
@@ -1390,9 +1363,9 @@
 - repo: liguros_develop
   srcname: dev-build/just
   visiblename: dev-build/just
-  version: 1.58.0
+  version: 1.59.0
   origversion: null
-  status: legacy
+  status: newest
   summary: Just a command runner (with syntax inspired by 'make')
   maintainers:
     - joe@wt.gd
@@ -1410,7 +1383,7 @@
 - repo: liguros_develop
   srcname: dev-build/just
   visiblename: dev-build/just
-  version: 1.57.0
+  version: 1.55.1
   origversion: null
   status: legacy
   summary: Just a command runner (with syntax inspired by 'make')
@@ -1539,6 +1512,19 @@
   maintainers:
     - xrelkd@github
     - hello+nixpkgs@j-k.io
+  licenses:
+    - CC0-1.0
+- repo: nix_stable_25_05
+  srcname: just
+  visiblename: just
+  version: 1.40.0
+  origversion: null
+  status: outdated
+  summary: Handy way to save and run project-specific commands
+  maintainers:
+    - xrelkd@github
+    - hello+nixpkgs@j-k.io
+    - xiaoyin_c@qq.com
   licenses:
     - CC0-1.0
 - repo: openbsd
@@ -1791,6 +1777,20 @@
     - CC0-1.0
   categories:
     - programming.tools
+- repo: solus
+  srcname: just
+  binname: just-dbginfo
+  visiblename: just-dbginfo
+  version: 1.59.0
+  origversion: null
+  status: newest
+  summary: Debug symbols for just
+  maintainers:
+    - david@davidjharder.ca
+  licenses:
+    - CC0-1.0
+  categories:
+    - debug
 - repo: spack
   srcname: just
   visiblename: just
